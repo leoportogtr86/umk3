@@ -1,0 +1,262 @@
+/* Estilos complementares ao Tailwind CSS para o UMK3 Blog */
+
+/* Reset mínimo para garantir consistência entre navegadores */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Garantir que não há scroll horizontal em nenhum viewport (Requisito 7.1) */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Transições suaves para elementos interativos */
+a,
+button,
+input {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Área de toque mínima para dispositivos móveis (Requisito 7.5) */
+@media (max-width: 767px) {
+  a,
+  button,
+  input {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+/* Estilo para foco visível (acessibilidade) — cor neon amarela com contraste ≥ 3:1 contra fundo mk-dark */
+:focus-visible {
+  outline: 2px solid #ffff00;
+  outline-offset: 2px;
+}
+
+/* Classe sr-only para elementos visíveis apenas para leitores de tela */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Classe para tornar sr-only visível ao receber foco (skip-link) */
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Estilo para imagens de personagens com fallback */
+.character-image {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+/* Animação sutil para cards ao hover */
+.character-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Estilo para a notação de comandos */
+.command-notation {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+}
+
+/* ===== Responsividade da Seção Lore (Requisitos 7.1, 7.2, 7.3, 7.4) ===== */
+
+/* Prevenção de overflow horizontal na seção de lore */
+.lore-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+/* Espaçamento entre parágrafos mínimo de 1em (Requisito 7.1) */
+.lore-content p {
+  margin-bottom: 1em;
+}
+
+/* Viewport < 768px: fonte mínima 16px, line-height mínimo 1.5, espaçamento 1em (Requisito 7.1) */
+@media (max-width: 767px) {
+  .lore-content {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .lore-content p {
+    margin-bottom: 1em;
+  }
+
+  .lore-content li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+/*
+ * Contraste de cores (Requisito 7.3):
+ * text-gray-200 (#e5e7eb) sobre bg-mk-dark (#0d0d1a)
+ * Razão de contraste: ~18.2:1 (supera amplamente o mínimo de 4.5:1 WCAG AA)
+ * Ciano (#00ffff) sobre fundo escuro (#0d0d1a): ~16.7:1 ✓
+ * Amarelo (#ffff00) sobre fundo escuro (#0d0d1a): ~19.6:1 ✓
+ * Magenta (#ff00ff) sobre fundo escuro (#0d0d1a): ~6.5:1 ✓
+ * Verde neon (#00e600) sobre fundo escuro (#0d0d1a): ~11.4:1 ✓
+ * Amarelo (#ffff00) foco sobre fundo escuro (#0d0d1a): ~19.6:1 (contraste ≥ 3:1 ✓)
+ */
+
+/* ===== Tema 2D Game — Estilos Base (Requisitos 2.x, 3.x, 4.x, 8.5, 9.2, 9.6) ===== */
+
+/* Pixel Font — fonte pixelada para títulos (Requisito 2.1) */
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Pixel Border — borda temática estilo pixel art (Requisito 3.1, 3.2, 3.3, 3.4) */
+.pixel-border {
+  border: 2px solid var(--mk-primary, #00ffff);
+  border-radius: 2px;
+}
+
+/* Scanline Effect — overlay CRT sutil (Requisito 4.1) */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  opacity: 1;
+}
+
+/* Title Glow — pulsação neon no título principal (Requisito 4.4) */
+.title-glow {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Card Hover Glow — efeito neon ao passar o mouse nos cards (Requisito 4.3, 3.5) */
+.card-hover-glow {
+  transition: all 200ms ease-in-out;
+}
+
+.card-hover-glow:hover {
+  box-shadow: 0 0 8px 4px rgba(0, 255, 255, 0.4);
+  border-color: #66ffff;
+}
+
+/* Card Enter — animação sequencial de entrada dos cards (Requisito 4.2) */
+@keyframes card-enter {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { text-shadow: 0 0 4px #00ffff, 0 0 8px #00ffff; }
+  50% { text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff, 0 0 24px #00ffff; }
+}
+
+.card-enter {
+  animation: card-enter 300ms ease-out forwards;
+  animation-delay: calc(var(--card-index, 0) * 80ms);
+  opacity: 0;
+}
+
+/* Section Header — cabeçalho de seção com gradiente neon (Requisito 6.4) */
+.section-header {
+  font-family: 'Press Start 2P', monospace;
+  border-bottom: 2px solid #00ffff;
+  border-image: linear-gradient(90deg, #00ffff, #ff00ff) 1;
+  padding-bottom: 0.5rem;
+}
+
+/* Story Container — janela de diálogo estilo jogo (Requisito 7.3) */
+.story-container {
+  background: #1a1a2e;
+  border: 2px solid #ff00ff;
+  border-radius: 2px;
+  padding: 24px;
+  box-shadow: 0 0 4px 2px rgba(255, 0, 255, 0.2);
+}
+
+@media (max-width: 767px) {
+  .story-container {
+    padding: 12px;
+  }
+}
+
+/* Command Token — tokens de comando estilizados (Requisito 6.3) */
+.command-token {
+  border: 1px solid #00ffff;
+  background: #2a2a3e;
+  border-radius: 4px;
+  font-family: monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Search Bar Themed — barra de busca temática (Requisito 5.3) */
+.search-bar-themed {
+  background: #1a1a2e;
+  border: 1px solid #00ffff;
+  font-family: 'VT323', 'Courier New', Courier, monospace;
+  border-radius: 2px;
+}
+
+.search-bar-themed::placeholder {
+  color: #888;
+}
+
+.search-bar-themed:focus {
+  border-color: #66ffff;
+  box-shadow: 0 0 4px 2px rgba(0, 255, 255, 0.2);
+}
+
+/* ===== Acessibilidade — Redução de Movimento (Requisito 4.5, 8.5) ===== */
+@media (prefers-reduced-motion: reduce) {
+  .title-glow,
+  .card-enter {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  body::after {
+    display: none;
+  }
+
+  .card-hover-glow:hover {
+    box-shadow: none;
+    transition: none;
+  }
+
+  /* Desabilitar todas as transições e animações globalmente */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
