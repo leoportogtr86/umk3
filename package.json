@@ -1,0 +1,19 @@
+{
+  "name": "umk3-blog",
+  "version": "1.0.0",
+  "description": "Blog completo com comandos do Ultimate Mortal Kombat 3 para SNES",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:unit": "vitest run tests/unit/",
+    "test:property": "vitest run tests/property/",
+    "test:e2e": "npx playwright test tests/e2e/"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "fast-check": "^4.1.1",
+    "jsdom": "^29.1.1",
+    "serve": "^14.2.6",
+    "vitest": "^3.2.1"
+  }
+}
