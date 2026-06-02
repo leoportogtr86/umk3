@@ -4,24 +4,84 @@
     "slug": "cyrax",
     "imageUrl": "images/cyrax.png",
     "specialMoves": [
-      { "name": "Green Net", "command": "← , ← , LK" },
-      { "name": "Short Bomb", "command": "← , ← , HK" },
-      { "name": "Long Bomb", "command": "→ , → , HK" },
-      { "name": "Air Throw", "command": "→ , ↓ , → , BL , LP" },
-      { "name": "Teleport", "command": "→ , ↓ , BL" }
+      {
+        "name": "Green Net",
+        "command": "← , ← , LK"
+      },
+      {
+        "name": "Near Bomb",
+        "command": "segure LK , ← , ← , HK"
+      },
+      {
+        "name": "Far Bomb",
+        "command": "segure LK , → , → , HK"
+      },
+      {
+        "name": "Teleport",
+        "command": "→ , ↓ , BL"
+      },
+      {
+        "name": "Air Throw",
+        "command": "↓ , → , BL , LP"
+      }
     ],
     "finishers": [
-      { "name": "Helicóptero", "type": "fatality", "command": "↓ , ↓ , ↑ , ↓ , HP", "distance": "Qualquer Distância" },
-      { "name": "Autodestruição", "type": "fatality", "command": "↓ , ↓ , → , ↑ , RUN", "distance": "Perto" },
-      { "name": "Tubarão", "type": "animality", "command": "↑ , ↑ , ↓ , ↓", "distance": "Perto" },
-      { "name": "Baby Cyrax", "type": "babality", "command": "→ , → , ← , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HK , HP , HK , HK , HP , HK , HP , HK , LK , LP", "distance": "Perto" }
+      {
+        "name": "Helicóptero",
+        "type": "fatality",
+        "command": "↓ , ↓ , ↑ , ↓ , HP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Autodestruição",
+        "type": "fatality",
+        "command": "↓ , ↓ , → , ↑ , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , BL , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Cyrax",
+        "type": "babality",
+        "command": "→ , → , ← , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , ↑",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HK , HP , HK , HK , HP , HK , HP , HK , LK , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "HK , HK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HP , HP , HK , HP , HK , ← + HK", "hits": 6, "damage": 27 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , HP , HK , HP , HK , ← + HK",
+        "hits": 6,
+        "damage": 27
+      }
     ],
     "lore": {
       "bio": "Cyrax é um guerreiro do clã Lin Kuei que foi transformado contra sua vontade em um cyborg assassino. Antes da automação, ele era um dos membros mais habilidosos do clã, conhecido por sua lealdade e senso de honra.\n\nDurante os eventos de Mortal Kombat 3, Cyrax foi enviado para caçar o ninja desertor Sub-Zero, mas sua programação começou a falhar. Fragmentos de sua consciência humana lutavam contra os protocolos de máquina, criando um conflito interno entre dever e identidade.",
@@ -41,22 +101,64 @@
     "slug": "ermac",
     "imageUrl": "images/ermac.png",
     "specialMoves": [
-      { "name": "Fireball", "command": "↓ , ← , LP" },
-      { "name": "Teleport Punch", "command": "↓ , ← , HP" },
-      { "name": "Telekinetic Slam", "command": "← , ↓ , ← , HK" }
+      {
+        "name": "Fireball",
+        "command": "↓ , ← , LP"
+      },
+      {
+        "name": "Teleport Punch",
+        "command": "↓ , ← , HP"
+      },
+      {
+        "name": "Telekinetic Slam",
+        "command": "← , ↓ , ← , HK"
+      }
     ],
     "finishers": [
-      { "name": "Telekinetic Slam", "type": "fatality", "command": "RUN , BL , RUN , RUN , HK", "distance": "Perto" },
-      { "name": "Uppercut Decapitation", "type": "fatality", "command": "↓ , ↑ , ↓ , ↓ , ↓ , BL", "distance": "Médio" },
-      { "name": "Sapo", "type": "animality", "command": "← , ← , → , → , LK", "distance": "Perto" },
-      { "name": "Baby Ermac", "type": "babality", "command": "↓ , ↓ , → , ↓ , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "→ , → , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , LP , BL , HK , LK , BL , HP , LP , LK , HK", "distance": "Perto" }
+      {
+        "name": "Telekinetic Massacre",
+        "type": "fatality",
+        "command": "↓ , ↑ , ↓ , ↓ , ↓ , BL",
+        "distance": "Médio"
+      },
+      {
+        "name": "Uppercut Decapitation",
+        "type": "fatality",
+        "command": "indisponível na versão SNES",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , RUN , RUN , RUN , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , LP , BL , HK , LK , BL , HP , LP , LK , HK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Mixed Combo", "command": "HP , HP , ← + LP , HK , LK", "hits": 5, "damage": 22 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Mixed Combo",
+        "command": "HP , HP , ← + LP , HK , LK",
+        "hits": 5,
+        "damage": 22
+      }
     ]
   },
   {
@@ -64,25 +166,88 @@
     "slug": "jade",
     "imageUrl": "images/jade.png",
     "specialMoves": [
-      { "name": "Boomerang", "command": "← , → , LP" },
-      { "name": "Upward Boomerang", "command": "← , → , HP" },
-      { "name": "Downward Boomerang", "command": "← , → , LK" },
-      { "name": "Returning Boomerang", "command": "← , ← , → , LP" },
-      { "name": "Shadow Kick", "command": "↓ , → , LK" },
-      { "name": "Projectile Shield", "command": "← , → , HK" }
+      {
+        "name": "Mid Boomerang",
+        "command": "← , → , LP"
+      },
+      {
+        "name": "High Boomerang",
+        "command": "← , → , HP"
+      },
+      {
+        "name": "Low Boomerang",
+        "command": "← , → , LK"
+      },
+      {
+        "name": "Returning Boomerang",
+        "command": "← , ← , → , LP"
+      },
+      {
+        "name": "Shadow Kick",
+        "command": "↓ , → , LK"
+      },
+      {
+        "name": "Projectile Invincibility",
+        "command": "← , → , HK"
+      }
     ],
     "finishers": [
-      { "name": "Staff Impale", "type": "fatality", "command": "↑ , ↑ , ↓ , → , HP", "distance": "Perto" },
-      { "name": "Shake Apart", "type": "fatality", "command": "RUN , RUN , RUN , BL , RUN", "distance": "Perto" },
-      { "name": "Gato", "type": "animality", "command": "→ , ↓ , → , → , LK", "distance": "Perto" },
-      { "name": "Baby Jade", "type": "babality", "command": "↓ , ↓ , → , ↓ , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "← , ↓ , ← , ← , HK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LK , HP , LP , HK , HK , LK , BL , HP , HK", "distance": "Perto" }
+      {
+        "name": "Staff Impale",
+        "type": "fatality",
+        "command": "segure BL , ↑ , ↑ , ↓ , → , HP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Shake Apart",
+        "type": "fatality",
+        "command": "RUN , RUN , RUN , BL , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "← , → , ↓ , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Jade",
+        "type": "babality",
+        "command": "↓ , ↓ , → , ↓ , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "← , ↓ , ← , ← , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LK , HP , LP , HK , HK , LK , BL , BL , HP , HK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + LP , ↓ + HP", "hits": 4, "damage": 18 },
-      { "name": "Basic Kick", "command": "HK , HK , LK", "hits": 3, "damage": 14 }
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + LP , ↓ + HP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Basic Kick",
+        "command": "HK , HK , LK",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   },
   {
@@ -90,25 +255,92 @@
     "slug": "jax",
     "imageUrl": "images/jax.png",
     "specialMoves": [
-      { "name": "Single Missile", "command": "← , → , HP" },
-      { "name": "Double Missile", "command": "→ , → , ← , ← , HP" },
-      { "name": "Gotcha Grab", "command": "→ , → , LP" },
-      { "name": "Dash Punch", "command": "→ , → , LK" },
-      { "name": "Ground Pound", "command": "LK" },
-      { "name": "Back Breaker", "command": "BL" }
+      {
+        "name": "Single Missile",
+        "command": "← , → , HP"
+      },
+      {
+        "name": "Double Missile",
+        "command": "→ , → , ← , ← , HP"
+      },
+      {
+        "name": "Dash Punch",
+        "command": "→ , → , HK"
+      },
+      {
+        "name": "Gotcha Grab",
+        "command": "→ , → , LP"
+      },
+      {
+        "name": "Ground Pound",
+        "command": "segure LK por 3s , solte LK"
+      },
+      {
+        "name": "Back Breaker",
+        "command": "BL no ar"
+      },
+      {
+        "name": "Repeated Slams",
+        "command": "HP repetidamente após arremesso"
+      }
     ],
     "finishers": [
-      { "name": "Giant Stomp", "type": "fatality", "command": "↑ , ↑ , ↓ , → , ↑ , BL", "distance": "Perto" },
-      { "name": "Arm Blade", "type": "fatality", "command": "RUN , BL , RUN , RUN , LK", "distance": "Perto" },
-      { "name": "Leão", "type": "animality", "command": "→ , → , ↓ , →", "distance": "Perto" },
-      { "name": "Baby Jax", "type": "babality", "command": "↓ , ↓ , ↓ , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "LK , RUN , RUN , LK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , HP , BL , LP , HP , HP , HP , BL , LP , HP", "distance": "Perto" }
+      {
+        "name": "Arm Blades",
+        "type": "fatality",
+        "command": "segure BL , ↑ , ↓ , → , ↑ , solte BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Giant Stomp",
+        "type": "fatality",
+        "command": "RUN , BL , RUN , RUN , LK",
+        "distance": "Longe"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↓ , → , ↓ , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Jax",
+        "type": "babality",
+        "command": "↓ , ↓ , ↓ , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "LK , RUN , RUN , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , HP , BL , LP , HP , HP , HP , BL , LP , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , BL , ← + HP", "hits": 4, "damage": 19 },
-      { "name": "Kick Combo", "command": "HK , HK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HP , HP , BL , LP , ← + HP", "hits": 5, "damage": 22 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , BL , ← + HP",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , HP , BL , LP , ← + HP",
+        "hits": 5,
+        "damage": 22
+      }
     ]
   },
   {
@@ -116,22 +348,76 @@
     "slug": "kabal",
     "imageUrl": "images/kabal.png",
     "specialMoves": [
-      { "name": "Fireball", "command": "← , ← , HP" },
-      { "name": "Web Spin", "command": "← , → , LK" },
-      { "name": "Ground Saw", "command": "← , ← , ← , RUN" }
+      {
+        "name": "Fireball",
+        "command": "← , ← , HP"
+      },
+      {
+        "name": "Tornado Run",
+        "command": "← , → , LK"
+      },
+      {
+        "name": "Ground Saw",
+        "command": "← , ← , ← , RUN"
+      }
     ],
     "finishers": [
-      { "name": "Head Inflate", "type": "fatality", "command": "↓ , ↓ , ← , → , BL", "distance": "Médio" },
-      { "name": "Scary Face", "type": "fatality", "command": "RUN , BL , BL , BL , HK", "distance": "Perto" },
-      { "name": "Rinoceronte", "type": "animality", "command": "→ , → , ↓ , →", "distance": "Perto" },
-      { "name": "Baby Kabal", "type": "babality", "command": "RUN , RUN , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , LK , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , BL , LK , LK , LK , HK , LP , LP , LP , HP , LP", "distance": "Perto" }
+      {
+        "name": "Head Inflation",
+        "type": "fatality",
+        "command": "↓ , ↓ , ← , → , BL",
+        "distance": "Longe"
+      },
+      {
+        "name": "Soul Scream",
+        "type": "fatality",
+        "command": "RUN , BL , BL , BL , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "BL , BL , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Kabal",
+        "type": "babality",
+        "command": "RUN , RUN , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , LK , RUN , RUN , ↑",
+        "distance": "Fora da rasteira"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , BL , LK , LK , LK , HK , LP , LP , LP , HP , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "LK , LK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Punch Kick Combo", "command": "LK , LK , HK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Advanced Combo", "command": "LK , LK , HP , HP , ↓ + HP", "hits": 5, "damage": 22 }
+      {
+        "name": "Kick Combo",
+        "command": "LK , LK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Punch Kick Combo",
+        "command": "LK , LK , HK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "LK , LK , HP , HP , ↓ + HP",
+        "hits": 5,
+        "damage": 22
+      }
     ]
   },
   {
@@ -139,24 +425,88 @@
     "slug": "kano",
     "imageUrl": "images/kano.png",
     "specialMoves": [
-      { "name": "Knife Throw", "command": "↓ , ← , HP" },
-      { "name": "Blade Swipe", "command": "↓ , → , HP" },
-      { "name": "Cannonball", "command": "LK" },
-      { "name": "Grab and Shake", "command": "↓ , → , LP" },
-      { "name": "Air Throw", "command": "BL" }
+      {
+        "name": "Knife Throw",
+        "command": "↓ , ← , HP"
+      },
+      {
+        "name": "Knife Uppercut",
+        "command": "↓ , → , HP"
+      },
+      {
+        "name": "Cannon Ball",
+        "command": "segure LK por 3s , solte LK"
+      },
+      {
+        "name": "Upward Cannon Ball",
+        "command": "→ , ↓ , → , HK"
+      },
+      {
+        "name": "Grab and Choke",
+        "command": "↓ , → , LP"
+      },
+      {
+        "name": "Air Throw",
+        "command": "BL no ar"
+      }
     ],
     "finishers": [
-      { "name": "Skeleton Rip", "type": "fatality", "command": "→ , ↓ , ↓ , → , LP", "distance": "Perto" },
-      { "name": "Eye Laser", "type": "fatality", "command": "LP , BL , BL , HK", "distance": "Perto" },
-      { "name": "Aranha", "type": "animality", "command": "BL , BL , BL", "distance": "Perto" },
-      { "name": "Baby Kano", "type": "babality", "command": "→ , → , ↓ , ↓ , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "LK , RUN , RUN , HK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , BL , HP , BL , HK , LK , BL , HK , LK", "distance": "Perto" }
+      {
+        "name": "Skeleton Pull",
+        "type": "fatality",
+        "command": "segure LP , → , ↓ , ↓ , → , solte LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Eye Laser",
+        "type": "fatality",
+        "command": "LP , BL , BL , HK",
+        "distance": "Médio"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↑ , ↑ , ← , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Kano",
+        "type": "babality",
+        "command": "→ , → , ↓ , ↓ , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "LK , RUN , RUN , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , BL , LP , HP , BL , HK , LK , BL , HK , LK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP , ↓ + HP", "hits": 4, "damage": 19 },
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Basic Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP , ↓ + HP",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Basic Combo",
+        "command": "HP , HP , LP",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   },
   {
@@ -164,22 +514,76 @@
     "slug": "kitana",
     "imageUrl": "images/kitana.png",
     "specialMoves": [
-      { "name": "Fan Throw", "command": "→ , → , HP + LP" },
-      { "name": "Fan Lift", "command": "← , ← , ← , HP" },
-      { "name": "Square Wave Punch", "command": "↓ , ← , HP" }
+      {
+        "name": "Fan Throw",
+        "command": "→ , → , HP + LP"
+      },
+      {
+        "name": "Fan Lift",
+        "command": "← , ← , ← , HP"
+      },
+      {
+        "name": "Square Wave Punch",
+        "command": "↓ , ← , HP"
+      }
     ],
     "finishers": [
-      { "name": "Kiss of Death", "type": "fatality", "command": "RUN , RUN , BL , BL , LK", "distance": "Perto" },
-      { "name": "Fan Decapitation", "type": "fatality", "command": "← , ↓ , → , → , HK", "distance": "Perto" },
-      { "name": "Coelho", "type": "animality", "command": "↓ , ↓ , ↓ , ↓ , RUN", "distance": "Médio" },
-      { "name": "Baby Kitana", "type": "babality", "command": "→ , → , ↓ , → , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "↓ , ← , → , → , LP", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , BL , HK , BL , LK , BL , LP , BL , HP , BL", "distance": "Perto" }
+      {
+        "name": "Kiss of Death",
+        "type": "fatality",
+        "command": "RUN , RUN , BL , BL , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Fan Decapitation",
+        "type": "fatality",
+        "command": "← , ↓ , → , → , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , ↓ , ↓ , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Kitana",
+        "type": "babality",
+        "command": "→ , → , ↓ , → , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "↓ , ← , → , → , LP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , BL , HK , BL , LK , BL , BL , LP , BL , HP , BL",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Punch Combo", "command": "HP , HP , ← + LP , ↓ + LP", "hits": 4, "damage": 18 },
-      { "name": "Basic Kick", "command": "HK , HK , LK", "hits": 3, "damage": 14 }
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ← + LP , ↓ + LP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Basic Kick",
+        "command": "HK , HK , LK",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   },
   {
@@ -187,22 +591,74 @@
     "slug": "kung-lao",
     "imageUrl": "images/kung-lao.png",
     "specialMoves": [
-      { "name": "Hat Throw", "command": "← , → , LP" },
-      { "name": "Teleport", "command": "↓ , ↑" },
-      { "name": "Spinning Shield", "command": "→ , ↓ , → , RUN" },
-      { "name": "Diving Kick", "command": "↓ + HK" }
+      {
+        "name": "Hat Throw",
+        "command": "← , → , LP"
+      },
+      {
+        "name": "Teleport",
+        "command": "↓ , ↑"
+      },
+      {
+        "name": "Spinning Shield",
+        "command": "→ , ↓ , → , RUN"
+      },
+      {
+        "name": "Diving Kick",
+        "command": "↓ + HK no ar"
+      }
     ],
     "finishers": [
-      { "name": "Hat Slice", "type": "fatality", "command": "→ , → , ← , ↓ , HP", "distance": "Perto" },
-      { "name": "Hat Decapitation", "type": "fatality", "command": "RUN , BL , RUN , BL , ↓", "distance": "Médio" },
-      { "name": "Leopardo", "type": "animality", "command": "RUN , RUN , RUN , RUN , BL", "distance": "Perto" },
-      { "name": "Baby Kung Lao", "type": "babality", "command": "↓ , ↓ , → , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , LP , RUN , LK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , LK , HK , BL , HP , LP , LK , HK , BL , HP", "distance": "Perto" }
+      {
+        "name": "Spin of Death",
+        "type": "fatality",
+        "command": "RUN , BL , RUN , BL , ↓",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Hat Boomerang",
+        "type": "fatality",
+        "command": "→ , → , ← , ↓ , HP",
+        "distance": "Médio"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↓ , ↓ , → , → , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Kung Lao",
+        "type": "babality",
+        "command": "↓ , → , → , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , LP , RUN , LK",
+        "distance": "Fora da rasteira"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , LK , HK , BL , HP , LP , LK , HK , BL , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "LK , LK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HP , LP , HP , LP , LK , LK , ← + HK", "hits": 7, "damage": 30 }
+      {
+        "name": "Kick Combo",
+        "command": "LK , LK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , LP , HP , LP , LK , LK , ← + HK",
+        "hits": 7,
+        "damage": 30
+      }
     ]
   },
   {
@@ -210,23 +666,80 @@
     "slug": "liu-kang",
     "imageUrl": "images/liu-kang.png",
     "specialMoves": [
-      { "name": "High Fireball", "command": "→ , → , HP" },
-      { "name": "Low Fireball", "command": "→ , → , LP" },
-      { "name": "Bicycle Kick", "command": "LK" },
-      { "name": "Flying Kick", "command": "→ , → , HK" }
+      {
+        "name": "High Fireball",
+        "command": "→ , → , HP"
+      },
+      {
+        "name": "Low Fireball",
+        "command": "→ , → , LP"
+      },
+      {
+        "name": "Bicycle Kick",
+        "command": "segure LK por 3s , solte LK"
+      },
+      {
+        "name": "Flying Kick",
+        "command": "→ , → , HK"
+      }
     ],
     "finishers": [
-      { "name": "MK1 Arcade Drop", "type": "fatality", "command": "→ , → , ↓ , ↓ , LK", "distance": "Qualquer Distância" },
-      { "name": "Fire Combo", "type": "fatality", "command": "↑ , ↓ , ↑ , ↑ , RUN + BL", "distance": "Qualquer Distância" },
-      { "name": "Dragão", "type": "animality", "command": "↓ , ↓ , ↑", "distance": "Médio" },
-      { "name": "Baby Liu Kang", "type": "babality", "command": "↓ , ↓ , ↓ , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "↓ , ↓ , ↓ , RUN", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , HP , BL , LK , HK , HK , LK , HK , LP , HP", "distance": "Perto" }
+      {
+        "name": "Flame Engulf",
+        "type": "fatality",
+        "command": "→ , → , ↓ , ↓ , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "MK1 Arcade Drop",
+        "type": "fatality",
+        "command": "↑ , ↓ , ↑ , ↑ , BL + RUN",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , BL , BL , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Liu Kang",
+        "type": "babality",
+        "command": "↓ , ↓ , ↓ , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , ↓ + RUN",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , HP , BL , LK , HK , LK , HK , LP , LP , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "LK , LK , HK , ← + LK", "hits": 4, "damage": 19 },
-      { "name": "Basic Kick", "command": "LK , LK , HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HP , HP , BL , LK , LK , HK , ← + LK", "hits": 7, "damage": 30 }
+      {
+        "name": "Kick Combo",
+        "command": "LK , LK , HK , ← + LK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Basic Kick",
+        "command": "LK , LK , HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , HP , BL , LK , LK , HK , ← + LK",
+        "hits": 7,
+        "damage": 30
+      }
     ]
   },
   {
@@ -234,21 +747,70 @@
     "slug": "mileena",
     "imageUrl": "images/mileena.png",
     "specialMoves": [
-      { "name": "Sai Toss", "command": "HP" },
-      { "name": "Teleport Kick", "command": "→ , → , LK" },
-      { "name": "Ground Roll", "command": "← , ← , ↓ , HK" }
+      {
+        "name": "Sai Toss",
+        "command": "segure HP por 2s , solte HP"
+      },
+      {
+        "name": "Teleport Kick",
+        "command": "→ , → , LK"
+      },
+      {
+        "name": "Ground Roll",
+        "command": "← , ← , ↓ , HK"
+      }
     ],
     "finishers": [
-      { "name": "Nail Spit", "type": "fatality", "command": "← , ← , ← , → , LK", "distance": "Longe" },
-      { "name": "Man Eater", "type": "fatality", "command": "↓ , → , ↓ , → , LP", "distance": "Perto" },
-      { "name": "Gambá", "type": "animality", "command": "→ , ↓ , ↓ , →", "distance": "Perto" },
-      { "name": "Baby Mileena", "type": "babality", "command": "↓ , ↓ , → , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "↓ , ↓ , ← , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , LP , HP , BL , HK , LK , LK , HK , BL , HP", "distance": "Perto" }
+      {
+        "name": "Nail Spit",
+        "type": "fatality",
+        "command": "← , ← , ← , → , LK",
+        "distance": "Longe"
+      },
+      {
+        "name": "Man Eater",
+        "type": "fatality",
+        "command": "↓ , → , ↓ , → , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↓ , ↓ , ↓ , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Mileena",
+        "type": "babality",
+        "command": "↓ , ↓ , → , → , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "↓ , ↓ , ← , → , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , LP , HP , BL , HK , LK , HK , BL , HP , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Kick Combo", "command": "HP , HP , HK , HK , ↑ + LK , ↑ + HK", "hits": 6, "damage": 27 },
-      { "name": "Basic Combo", "command": "HP , HP , HK", "hits": 3, "damage": 14 }
+      {
+        "name": "Punch Kick Combo",
+        "command": "HP , HP , HK , HK , ↑ + LK , ↑ + HK",
+        "hits": 6,
+        "damage": 27
+      },
+      {
+        "name": "Basic Combo",
+        "command": "HP , HP , HK",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   },
   {
@@ -256,23 +818,80 @@
     "slug": "nightwolf",
     "imageUrl": "images/nightwolf.png",
     "specialMoves": [
-      { "name": "Arrow", "command": "↓ , ← , LP" },
-      { "name": "Hatchet Uppercut", "command": "↓ , → , HP" },
-      { "name": "Shoulder Charge", "command": "→ , → , LK" },
-      { "name": "Glow Shield", "command": "← , ← , ← , HK" }
+      {
+        "name": "Arrow",
+        "command": "↓ , ← , LP"
+      },
+      {
+        "name": "Hatchet Uppercut",
+        "command": "↓ , → , HP"
+      },
+      {
+        "name": "Shadow Charge",
+        "command": "→ , → , LK"
+      },
+      {
+        "name": "Projectile Shield",
+        "command": "← , ← , ← , HK"
+      }
     ],
     "finishers": [
-      { "name": "Lightning Strike", "type": "fatality", "command": "↑ , ↑ , ← , → , BL", "distance": "Perto" },
-      { "name": "Light from Above", "type": "fatality", "command": "← , ← , ↓ , HP", "distance": "Qualquer Distância" },
-      { "name": "Lobo", "type": "animality", "command": "→ , → , ↓ , ↓", "distance": "Perto" },
-      { "name": "Baby Nightwolf", "type": "babality", "command": "→ , ← , → , ← , LP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "HP , RUN , RUN , RUN , ↓", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , HK , LK , LK , BL , BL , LP , LP , HP , HK", "distance": "Perto" }
+      {
+        "name": "Enlightenment",
+        "type": "fatality",
+        "command": "segure BL , ↑ , ↑ , ← , → , solte BL , BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Lightning Hatchet",
+        "type": "fatality",
+        "command": "← , ← , ↓ , HP",
+        "distance": "Médio"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , RUN , BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Nightwolf",
+        "type": "babality",
+        "command": "→ , ← , → , ← , LP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , ↓ + RUN",
+        "distance": "Médio"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , HK , LK , LK , BL , BL , LP , LP , HP , HK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 },
-      { "name": "Punch Kick Combo", "command": "LK , HP , HP , LP", "hits": 4, "damage": 19 },
-      { "name": "Hatchet Combo", "command": "HP , HP , LP , ← + HK", "hits": 4, "damage": 21 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Punch Kick Combo",
+        "command": "LK , HP , HP , LP",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Hatchet Combo",
+        "command": "HP , HP , LP , ← + HK",
+        "hits": 4,
+        "damage": 21
+      }
     ]
   },
   {
@@ -280,24 +899,82 @@
     "slug": "reptile",
     "imageUrl": "images/reptile.png",
     "specialMoves": [
-      { "name": "Acid Spit", "command": "→ , → , HP" },
-      { "name": "Slow Forceball", "command": "← , ← , HP + LP" },
-      { "name": "Fast Forceball", "command": "→ , → , HP + LP" },
-      { "name": "Slide", "command": "← + LP + BL + LK" },
-      { "name": "Invisibility", "command": "↑ , ↑ , ↓ , HK" },
-      { "name": "Reverse Elbow", "command": "← , → , LK" }
+      {
+        "name": "Acid Spit",
+        "command": "→ , → , HP"
+      },
+      {
+        "name": "Fast Forceball",
+        "command": "→ , → , HP + LP"
+      },
+      {
+        "name": "Slow Forceball",
+        "command": "← , ← , HP + LP"
+      },
+      {
+        "name": "Elbow Dash",
+        "command": "← , → , LK"
+      },
+      {
+        "name": "Slide",
+        "command": "← + LP + BL + LK"
+      },
+      {
+        "name": "Invisibility",
+        "command": "↑ , ↓ , HK"
+      }
     ],
     "finishers": [
-      { "name": "Acid Vomit", "type": "fatality", "command": "← , → , ↓ , BL", "distance": "Médio" },
-      { "name": "Tongue Snack", "type": "fatality", "command": "→ , → , ↑ , ↑ , HK", "distance": "Médio" },
-      { "name": "Chimpanzé", "type": "animality", "command": "↓ , ↓ , ↓ , ↑ , HK", "distance": "Perto" },
-      { "name": "Baby Reptile", "type": "babality", "command": "→ , → , ← , ↓ , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "↓ , → , → , ← , HK", "distance": "Perto" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , BL , HK , HK , BL , HP , LP , LK , LK , BL , BL + LP", "distance": "Perto" }
+      {
+        "name": "Body Snack",
+        "type": "fatality",
+        "command": "← , → , ↓ , BL",
+        "distance": "Salto"
+      },
+      {
+        "name": "Acid Puke",
+        "type": "fatality",
+        "command": "→ , → , ↑ , ↑ , HK",
+        "distance": "Médio"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , BL , RUN , BL , BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Reptile",
+        "type": "babality",
+        "command": "→ , → , ← , ↓ , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "↓ , → , → , ← , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , BL , HK , HK , BL , HP , LP , LK , LK , BL , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "HP , HP , HK , ← + HK", "hits": 4, "damage": 19 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HP , HP , HK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      }
     ]
   },
   {
@@ -305,22 +982,76 @@
     "slug": "scorpion",
     "imageUrl": "images/scorpion.png",
     "specialMoves": [
-      { "name": "Spear", "command": "← , ← , LP" },
-      { "name": "Teleport Punch", "command": "↓ , ← , HP" },
-      { "name": "Air Throw", "command": "BL" }
+      {
+        "name": "Spear",
+        "command": "← , ← , LP"
+      },
+      {
+        "name": "Teleport Punch",
+        "command": "↓ , ← , HP"
+      },
+      {
+        "name": "Air Throw",
+        "command": "BL no ar"
+      }
     ],
     "finishers": [
-      { "name": "Toasty!", "type": "fatality", "command": "↓ , ↓ , ↑ , HK", "distance": "Médio" },
-      { "name": "Scorpion Slice", "type": "fatality", "command": "→ , → , ↓ , ↑ , RUN", "distance": "Perto" },
-      { "name": "Pinguim", "type": "animality", "command": "→ , ↑ , ↑ , HK", "distance": "Perto" },
-      { "name": "Baby Scorpion", "type": "babality", "command": "↓ , ← , ← , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "← , → , → , ← , LK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , BL , HK , HK , LK , HK , HP , HP , LP , HP", "distance": "Perto" }
+      {
+        "name": "Toasty!",
+        "type": "fatality",
+        "command": "↓ , ↓ , ↑ , HK",
+        "distance": "Fora da rasteira"
+      },
+      {
+        "name": "Hell Raiser",
+        "type": "fatality",
+        "command": "→ , → , ↓ , ↑ , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , ↑ , ↑ , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Scorpion",
+        "type": "babality",
+        "command": "↓ , ← , ← , → , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "← , → , → , ← , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , BL , HK , HK , LK , HK , HP , HP , LP , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↑ + LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "HK , HK , LK , LK", "hits": 4, "damage": 19 },
-      { "name": "Mixed Combo", "command": "HP , HP , HK , ← + HK", "hits": 4, "damage": 21 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↑ + LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , LK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Mixed Combo",
+        "command": "HP , HP , HK , ← + HK",
+        "hits": 4,
+        "damage": 21
+      }
     ]
   },
   {
@@ -328,22 +1059,76 @@
     "slug": "sektor",
     "imageUrl": "images/sektor.png",
     "specialMoves": [
-      { "name": "Missile", "command": "→ , → , LP" },
-      { "name": "Homing Missile", "command": "→ , ↓ , ← , HP" },
-      { "name": "Teleport Uppercut", "command": "→ , → , LK" }
+      {
+        "name": "Missile",
+        "command": "→ , → , LP"
+      },
+      {
+        "name": "Heat-Seeker",
+        "command": "→ , ↓ , ← , HP"
+      },
+      {
+        "name": "Teleport Uppercut",
+        "command": "→ , → , LK"
+      }
     ],
     "finishers": [
-      { "name": "Compactor", "type": "fatality", "command": "LP , RUN , RUN , BL", "distance": "Médio" },
-      { "name": "Flamethrower", "type": "fatality", "command": "→ , → , → , ← , BL", "distance": "Médio" },
-      { "name": "Morcego", "type": "animality", "command": "→ , → , ↓ , ↑", "distance": "Perto" },
-      { "name": "Baby Sektor", "type": "babality", "command": "← , ↓ , ↓ , ↓ , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , RUN , RUN , RUN , ↓", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , HP , HP , BL , LP , HP , HP , HP , BL , LP , HP", "distance": "Perto" }
+      {
+        "name": "Compactor",
+        "type": "fatality",
+        "command": "LP , RUN , RUN , BL",
+        "distance": "Médio"
+      },
+      {
+        "name": "Flamethrower",
+        "type": "fatality",
+        "command": "→ , → , → , ← , BL",
+        "distance": "Longe"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "RUN , RUN , RUN , ↓",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Sektor",
+        "type": "babality",
+        "command": "← , ↓ , ↓ , ↓ , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , RUN , ↓",
+        "distance": "Meia tela"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , HP , BL , BL , HK , HK , LK , LK , LP , LP , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + LP", "hits": 3, "damage": 14 },
-      { "name": "Punch Kick Combo", "command": "HP , HP , LK , LP", "hits": 4, "damage": 18 },
-      { "name": "Advanced Combo", "command": "HP , HP , HK , HK , ← + HK", "hits": 5, "damage": 22 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Punch Kick Combo",
+        "command": "HP , HP , LK , LP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , HP , HK , HK , ← + HK",
+        "hits": 5,
+        "damage": 22
+      }
     ]
   },
   {
@@ -351,46 +1136,156 @@
     "slug": "shang-tsung",
     "imageUrl": "images/shang-tsung.png",
     "specialMoves": [
-      { "name": "Fireball", "command": "← , ← , HP" },
-      { "name": "Double Fireball", "command": "← , ← , → , HP" },
-      { "name": "Triple Fireball", "command": "← , ← , → , → , HP" },
-      { "name": "Volcanic Eruption", "command": "→ , ← , ← , LK" }
+      {
+        "name": "Flaming Skull",
+        "command": "← , ← , HP"
+      },
+      {
+        "name": "Double Flaming Skulls",
+        "command": "← , ← , → , HP"
+      },
+      {
+        "name": "Triple Flaming Skulls",
+        "command": "← , ← , → , → , HP"
+      },
+      {
+        "name": "Ground Skulls",
+        "command": "→ , ← , ← , LK"
+      },
+      {
+        "name": "Morph: Kitana",
+        "command": "→ , ↓ , → , RUN"
+      },
+      {
+        "name": "Morph: Reptile",
+        "command": "RUN , BL , BL , HK"
+      },
+      {
+        "name": "Morph: Sonya",
+        "command": "↓ + RUN + LP + BL"
+      },
+      {
+        "name": "Morph: Jax",
+        "command": "→ , → , ↓ , LP"
+      },
+      {
+        "name": "Morph: Nightwolf",
+        "command": "↑ , ↑ , ↑"
+      },
+      {
+        "name": "Morph: Jade",
+        "command": "→ , → , ↓ , ↓ , BL"
+      },
+      {
+        "name": "Morph: Scorpion",
+        "command": "↓ , ↓ , → , LP"
+      },
+      {
+        "name": "Morph: Kano",
+        "command": "← , → , BL"
+      },
+      {
+        "name": "Morph: Mileena",
+        "command": "RUN , BL , HK"
+      },
+      {
+        "name": "Morph: Ermac",
+        "command": "↓ , ↓ , ↑"
+      },
+      {
+        "name": "Morph: Classic Sub-Zero",
+        "command": "BL , BL , RUN , RUN"
+      },
+      {
+        "name": "Morph: Sub-Zero",
+        "command": "→ , ↓ , → , HP"
+      },
+      {
+        "name": "Morph: Sektor",
+        "command": "↓ , → , ← , RUN"
+      },
+      {
+        "name": "Morph: Sindel",
+        "command": "← , ↓ , ← , LK"
+      },
+      {
+        "name": "Morph: Stryker",
+        "command": "→ , → , → , HK"
+      },
+      {
+        "name": "Morph: Cyrax",
+        "command": "BL , BL , BL"
+      },
+      {
+        "name": "Morph: Kung Lao",
+        "command": "RUN , RUN , BL , RUN"
+      },
+      {
+        "name": "Morph: Kabal",
+        "command": "LP , BL , HK"
+      },
+      {
+        "name": "Morph: Liu Kang",
+        "command": "↓ , ← , ↑ , → , ↓"
+      }
     ],
     "finishers": [
-      { "name": "Soul Steal", "type": "fatality", "command": "↓ , → , → , ↓ , LP", "distance": "Perto" },
-      { "name": "Bed of Spikes", "type": "fatality", "command": "RUN , BL , RUN , BL , LP", "distance": "Perto" },
-      { "name": "Cobra", "type": "animality", "command": "RUN , RUN , RUN", "distance": "Perto" },
-      { "name": "Baby Shang Tsung", "type": "babality", "command": "RUN , RUN , RUN , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "LK , RUN , RUN , ↓", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , BL , BL , BL , LK , HP , LP , LP , BL , HK , LK", "distance": "Perto" }
+      {
+        "name": "Spike Slam",
+        "type": "fatality",
+        "command": "segure LP , ↓ , → , → , ↓ , solte LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Soul Steal",
+        "type": "fatality",
+        "command": "segure LP , RUN , BL , RUN , BL , solte LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↑ , ↑ , ← , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Shang Tsung",
+        "type": "babality",
+        "command": "RUN , RUN , RUN , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "LK , RUN , RUN , ↓",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , BL , BL , BL , LK , HP , LP , LP , BL , BL , BL",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Basic Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "LK , HP , HP , LP , ← + HK", "hits": 5, "damage": 22 }
-    ]
-  },
-  {
-    "name": "Sheeva",
-    "slug": "sheeva",
-    "imageUrl": "images/sheeva.png",
-    "specialMoves": [
-      { "name": "Teleport Stomp", "command": "↓ , ↑" },
-      { "name": "Fireball", "command": "↓ , → , HP" },
-      { "name": "Ground Stomp", "command": "← , ↓ , ← , HK" }
-    ],
-    "finishers": [
-      { "name": "Skin Rip", "type": "fatality", "command": "→ , ↓ , ↓ , → , LP", "distance": "Perto" },
-      { "name": "Ground Pound", "type": "fatality", "command": "← , → , → , HK", "distance": "Perto" },
-      { "name": "Escorpião", "type": "animality", "command": "RUN , BL , BL , BL , BL", "distance": "Perto" },
-      { "name": "Baby Sheeva", "type": "babality", "command": "↓ , ↓ , ↓ , ← , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "→ , → , ↓ , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , BL , LK , HK , BL , HK , LK , BL , LP , HP", "distance": "Perto" }
-    ],
-    "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP , → + HP", "hits": 4, "damage": 19 },
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Basic Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Basic Combo",
+        "command": "HP , HP , LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "LK , HP , HP , LP , ← + HK",
+        "hits": 5,
+        "damage": 22
+      }
     ]
   },
   {
@@ -398,23 +1293,80 @@
     "slug": "sindel",
     "imageUrl": "images/sindel.png",
     "specialMoves": [
-      { "name": "Fireball", "command": "→ , → , LP" },
-      { "name": "Scream", "command": "→ , → , → , HP" },
-      { "name": "Levitate", "command": "← , ← , → , HK" },
-      { "name": "Air Fireball", "command": "↓ , → , LK" }
+      {
+        "name": "Fireball",
+        "command": "→ , → , LP"
+      },
+      {
+        "name": "Air Fireball",
+        "command": "↓ , → , LK no ar"
+      },
+      {
+        "name": "Scream",
+        "command": "→ , → , → , HP"
+      },
+      {
+        "name": "Levitate",
+        "command": "← , ← , → , HK"
+      }
     ],
     "finishers": [
-      { "name": "Hair Spin", "type": "fatality", "command": "RUN , RUN , BL , RUN , BL", "distance": "Médio" },
-      { "name": "Scream Shatter", "type": "fatality", "command": "RUN , RUN , BL , BL , RUN + BL", "distance": "Médio" },
-      { "name": "Vespa", "type": "animality", "command": "→ , → , ↑ , HP", "distance": "Perto" },
-      { "name": "Baby Sindel", "type": "babality", "command": "RUN , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , RUN , RUN , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , BL , LK , BL , LK , HK , BL , HK , LK , BL , LP", "distance": "Perto" }
+      {
+        "name": "Hair Spin",
+        "type": "fatality",
+        "command": "RUN , RUN , BL , RUN , BL",
+        "distance": "Médio"
+      },
+      {
+        "name": "Death Shriek",
+        "type": "fatality",
+        "command": "RUN , BL , BL , RUN + BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "↓ , ↓ , ↓ , LP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Sindel",
+        "type": "babality",
+        "command": "RUN , RUN , RUN , ↑",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , RUN , RUN , ↑",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , BL , LK , BL , LK , HK , BL , HK , LK , BL , LP , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + HP", "hits": 3, "damage": 14 },
-      { "name": "Punch Kick Combo", "command": "HP , HP , LP , HK", "hits": 4, "damage": 18 },
-      { "name": "Advanced Combo", "command": "LK , HP , HP , ↓ + HP", "hits": 4, "damage": 19 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + HP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Punch Kick Combo",
+        "command": "HP , HP , LP , HK",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "LK , HP , HP , ↓ + HP",
+        "hits": 4,
+        "damage": 19
+      }
     ]
   },
   {
@@ -422,22 +1374,80 @@
     "slug": "smoke-robot",
     "imageUrl": "images/smoke-robot.png",
     "specialMoves": [
-      { "name": "Spear", "command": "← , ← , LP" },
-      { "name": "Teleport Punch", "command": "↓ , ← , HP" },
-      { "name": "Air Throw", "command": "BL" }
+      {
+        "name": "Spear",
+        "command": "← , ← , LP"
+      },
+      {
+        "name": "Teleport Uppercut",
+        "command": "→ , → , LK"
+      },
+      {
+        "name": "Air Throw",
+        "command": "BL no ar"
+      },
+      {
+        "name": "Invisibility",
+        "command": "segure BL , ↑ , ↑ , RUN"
+      }
     ],
     "finishers": [
-      { "name": "Armageddon", "type": "fatality", "command": "RUN , BL , RUN , RUN , HK", "distance": "Perto" },
-      { "name": "Teleport Explode", "type": "fatality", "command": "→ , → , ← , RUN", "distance": "Médio" },
-      { "name": "Touro", "type": "animality", "command": "→ , → , → , ← , HK", "distance": "Médio" },
-      { "name": "Baby Smoke", "type": "babality", "command": "↓ , ← , ← , → , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "↓ , → , → , → , RUN", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LK , LK , HK , BL , BL , LP , LP , HP , HP , BL", "distance": "Perto" }
+      {
+        "name": "Earth Bomb",
+        "type": "fatality",
+        "command": "segure BL , ↑ , ↑ , → , ↓",
+        "distance": "Longe"
+      },
+      {
+        "name": "Throat Bomb",
+        "type": "fatality",
+        "command": "segure RUN + BL , ↓ , ↓ , → , ↑",
+        "distance": "Médio"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , → , ↓ , LK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Smoke",
+        "type": "babality",
+        "command": "↓ , ↓ , ← , ← , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "RUN , RUN , RUN , HK",
+        "distance": "Longe"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LK , LK , HK , BL , BL , LP , LP , HP , HP , BL , BL",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↑ + LP", "hits": 3, "damage": 14 },
-      { "name": "Kick Combo", "command": "HK , HK , LK , ← + HK", "hits": 4, "damage": 19 },
-      { "name": "Mixed Combo", "command": "HP , HP , HK , ← + HK", "hits": 4, "damage": 21 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↑ + LP",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , LK , ← + HK",
+        "hits": 4,
+        "damage": 19
+      },
+      {
+        "name": "Mixed Combo",
+        "command": "HP , HP , HK , ← + HK",
+        "hits": 4,
+        "damage": 21
+      }
     ]
   },
   {
@@ -445,23 +1455,80 @@
     "slug": "sonya",
     "imageUrl": "images/sonya.png",
     "specialMoves": [
-      { "name": "Ring Toss", "command": "↓ , → , LP" },
-      { "name": "Leg Grab", "command": "↓ + LP + BL" },
-      { "name": "Square Wave Punch", "command": "→ , ← , HP" },
-      { "name": "Rising Bicycle Kick", "command": "← , ← , ↓ , HK" }
+      {
+        "name": "Ring Toss",
+        "command": "↓ , → , LP"
+      },
+      {
+        "name": "Leg Grab",
+        "command": "↓ + LP + BL"
+      },
+      {
+        "name": "Square Wave Punch",
+        "command": "→ , ← , HP"
+      },
+      {
+        "name": "Rising Bicycle Kick",
+        "command": "← , ← , ↓ , HK"
+      }
     ],
     "finishers": [
-      { "name": "Kiss of Death", "type": "fatality", "command": "← , → , ↓ , ↓ , RUN", "distance": "Qualquer Distância" },
-      { "name": "Purple Haze", "type": "fatality", "command": "↑ , ↑ , ← , ↓ , RUN + BL", "distance": "Qualquer Distância" },
-      { "name": "Águia", "type": "animality", "command": "← , → , ↓ , → , LP", "distance": "Perto" },
-      { "name": "Baby Sonya", "type": "babality", "command": "↓ , ↓ , → , LK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "← , → , ↓ , → , RUN", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LK , BL , HP , LK , BL , HP , BL , HK , LK", "distance": "Perto" }
+      {
+        "name": "Purple Haze",
+        "type": "fatality",
+        "command": "segure RUN + BL , ↑ , ↑ , ← , ↓",
+        "distance": "Meia tela"
+      },
+      {
+        "name": "Kiss of Death",
+        "type": "fatality",
+        "command": "← , → , ↓ , ↓ , RUN",
+        "distance": "Mais de meia tela"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , → , ↓ , HP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Sonya",
+        "type": "babality",
+        "command": "↓ , ↓ , → , LK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "← , → , ← , ↓ + RUN",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LK , BL , HP , LK , BL , HP , LP , BL , HK , LK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , LP , HP", "hits": 4, "damage": 18 },
-      { "name": "Kick Combo", "command": "HK , HK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HK , HK , HP , HP , LP , ← + HP", "hits": 6, "damage": 27 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP , HP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HK , HK , HP , HP , LP , ← + HP",
+        "hits": 6,
+        "damage": 27
+      }
     ]
   },
   {
@@ -469,24 +1536,84 @@
     "slug": "stryker",
     "imageUrl": "images/stryker.png",
     "specialMoves": [
-      { "name": "Low Grenade", "command": "↓ , ← , LP" },
-      { "name": "High Grenade", "command": "↓ , ← , HP" },
-      { "name": "Baton Trip", "command": "→ , ← , LP" },
-      { "name": "Baton Toss", "command": "→ , → , HK" },
-      { "name": "Rapid Fire Gun", "command": "← , → , HP" }
+      {
+        "name": "Low Grenade",
+        "command": "↓ , ← , LP"
+      },
+      {
+        "name": "High Grenade",
+        "command": "↓ , ← , HP"
+      },
+      {
+        "name": "Baton Trip",
+        "command": "→ , ← , LP"
+      },
+      {
+        "name": "Baton Toss",
+        "command": "→ , → , HK"
+      },
+      {
+        "name": "Rapid Fire Gun",
+        "command": "← , → , HP"
+      }
     ],
     "finishers": [
-      { "name": "Taser", "type": "fatality", "command": "↓ , → , ↓ , → , BL", "distance": "Perto" },
-      { "name": "Explosives", "type": "fatality", "command": "→ , → , → , LK", "distance": "Longe" },
-      { "name": "Dinossauro", "type": "animality", "command": "RUN , RUN , RUN , BL", "distance": "Médio" },
-      { "name": "Baby Stryker", "type": "babality", "command": "↓ , → , → , ← , HP", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "RUN , LP , RUN , LK", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , HK , LK , HP , LP , LK , HK , HP , LK , LK", "distance": "Perto" }
+      {
+        "name": "Bomb",
+        "type": "fatality",
+        "command": "↓ , → , ↓ , → , BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Taser",
+        "type": "fatality",
+        "command": "→ , → , → , LK",
+        "distance": "Longe"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , ↑ , ↑ , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Stryker",
+        "type": "babality",
+        "command": "↓ , → , → , ← , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "LP , RUN , RUN , LP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , HK , LK , HP , LP , LK , HK , HP , LK , LK",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "LK , HP , HP , LP", "hits": 4, "damage": 18 },
-      { "name": "Kick Combo", "command": "HK , HP , HP , LP", "hits": 4, "damage": 18 },
-      { "name": "Basic Combo", "command": "HP , HP , LP", "hits": 3, "damage": 14 }
+      {
+        "name": "Punch Combo",
+        "command": "LK , HP , HP , LP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Kick Combo",
+        "command": "HK , HP , HP , LP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Basic Combo",
+        "command": "HP , HP , LP",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   },
   {
@@ -494,24 +1621,82 @@
     "slug": "sub-zero-unmasked",
     "imageUrl": "images/sub-zero-unmasked.png",
     "specialMoves": [
-      { "name": "Freeze", "command": "↓ , → , LP" },
-      { "name": "Ice Shower", "command": "↓ , → , HP" },
-      { "name": "Front Ice Shower", "command": "↓ , → , ← , HP" },
-      { "name": "Behind Ice Shower", "command": "↓ , ← , → , HP" },
-      { "name": "Ice Clone", "command": "↓ , ← , LP" },
-      { "name": "Ground Slide", "command": "← + LP + LK + BL" }
+      {
+        "name": "Freeze",
+        "command": "↓ , → , LP"
+      },
+      {
+        "name": "Ice Shower",
+        "command": "↓ , → , HP"
+      },
+      {
+        "name": "Front Ice Shower",
+        "command": "↓ , → , ← , HP"
+      },
+      {
+        "name": "Behind Ice Shower",
+        "command": "↓ , ← , → , HP"
+      },
+      {
+        "name": "Ice Clone",
+        "command": "↓ , ← , LP"
+      },
+      {
+        "name": "Ground Slide",
+        "command": "← + LP + BL + LK"
+      }
     ],
     "finishers": [
-      { "name": "Spine Rip", "type": "fatality", "command": "BL , BL , RUN , BL , RUN", "distance": "Perto" },
-      { "name": "Frozen Shatter", "type": "fatality", "command": "← , ← , ↓ , ← , RUN", "distance": "Médio" },
-      { "name": "Urso Polar", "type": "animality", "command": "→ , ↑ , ↑", "distance": "Perto" },
-      { "name": "Baby Sub-Zero", "type": "babality", "command": "↓ , ← , ← , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "LK , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LK , HK , LP , HP , HK , HK , HP , HP , LP", "distance": "Perto" }
+      {
+        "name": "Ice Breath",
+        "type": "fatality",
+        "command": "← , ← , ↓ , ← , RUN",
+        "distance": "Médio"
+      },
+      {
+        "name": "Body Breaker",
+        "type": "fatality",
+        "command": "BL , BL , RUN , BL , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "← , ↓ , → , → , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Sub-Zero",
+        "type": "babality",
+        "command": "↓ , ← , ← , HK",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "LK , LK , RUN , RUN , ↑",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LK , HK , LP , HP , HK , HK , HP , HP , LP , HP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Kick Combo", "command": "HK , HK , ← + HK", "hits": 3, "damage": 14 },
-      { "name": "Advanced Combo", "command": "HP , HP , LP , LK , HK , ← + HK", "hits": 6, "damage": 27 }
+      {
+        "name": "Kick Combo",
+        "command": "HK , HK , ← + HK",
+        "hits": 3,
+        "damage": 14
+      },
+      {
+        "name": "Advanced Combo",
+        "command": "HP , HP , LP , LK , HK , ← + HK",
+        "hits": 6,
+        "damage": 27
+      }
     ]
   },
   {
@@ -519,21 +1704,52 @@
     "slug": "sub-zero-classic",
     "imageUrl": "images/sub-zero-classic.png",
     "specialMoves": [
-      { "name": "Freeze", "command": "↓ , → , LP" },
-      { "name": "Ground Freeze", "command": "↓ , ← , LK" },
-      { "name": "Slide", "command": "← + LP + BL + LK" }
+      {
+        "name": "Freeze",
+        "command": "↓ , → , LP"
+      },
+      {
+        "name": "Ground Freeze",
+        "command": "↓ , ← , LK"
+      },
+      {
+        "name": "Slide",
+        "command": "← + LP + BL + LK"
+      }
     ],
     "finishers": [
-      { "name": "Spine Rip", "type": "fatality", "command": "↓ , ↓ , ↓ , → , HP", "distance": "Perto" },
-      { "name": "Ice Breath Shatter", "type": "fatality", "command": "→ , → , ↓ , HK", "distance": "Perto" },
-      { "name": "Urso Polar", "type": "animality", "command": "← , ← , ↓ , ← , RUN", "distance": "Perto" },
-      { "name": "Baby Sub-Zero", "type": "babality", "command": "↓ , ← , ← , HK", "distance": "Qualquer Distância" },
-      { "name": "Amizade", "type": "friendship", "command": "LK , RUN , RUN , ↑", "distance": "Qualquer Distância" },
-      { "name": "Brutality", "type": "brutality", "command": "HP , LP , HP , BL , LK , LK , HK , HK , HK , LP , HP , LP", "distance": "Perto" }
+      {
+        "name": "Spine Rip",
+        "type": "fatality",
+        "command": "↓ , ↓ , ↓ , → , HP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , ↓ , → , → , HP",
+        "distance": "Perto"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LP , HP , BL , LK , LK , HK , HK , LP , HP , LP",
+        "distance": "Perto"
+      }
     ],
     "combos": [
-      { "name": "Punch Combo", "command": "HP , HP , ↓ + LP , ↓ + HP", "hits": 4, "damage": 18 },
-      { "name": "Kick Combo", "command": "→ + LK , ← + HK , → + LK", "hits": 3, "damage": 14 }
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , ↓ + LP , ↓ + HP",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Kick Combo",
+        "command": "→ + LK , ← + HK , → + LK",
+        "hits": 3,
+        "damage": 14
+      }
     ]
   }
 ]

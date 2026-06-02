@@ -31,6 +31,7 @@ const FINISHER_TYPE_LABELS = {
   babality: 'Babality',
   friendship: 'Friendship',
   animality: 'Animality',
+  stage_fatality: 'Stage Fatality',
   brutality: 'Brutality',
 };
 
@@ -53,8 +54,10 @@ const BUTTON_TOKENS = new Set(['HP', 'LP', 'HK', 'LK', 'BL', 'RUN']);
 export function renderCommandDisplay(command, mode = 'notation') {
   if (!command) return '';
 
-  // Divide o comando preservando separadores " , " e " + "
-  const parts = command.split(/(\s,\s|\s\+\s)/);
+  // Divide o comando em direcionais, botões, separadores e textos livres.
+  // Isso mantém comandos com observações como "segure LK por 3s" traduzíveis
+  // no modo Botões SNES, sem perder as instruções textuais.
+  const parts = command.match(/HP|LP|HK|LK|BL|RUN|[↑↓←→]|[,+]|(?:(?!HP|LP|HK|LK|BL|RUN|[↑↓←→,+]).)+/g) || [];
 
   const rendered = parts.map(part => {
     const trimmed = part.trim();
@@ -129,7 +132,7 @@ export function renderFinisherSection(finishers, mode = 'notation') {
   const grouped = groupFinishersByType(finishers);
 
   // Ordem de exibição dos tipos
-  const typeOrder = ['fatality', 'babality', 'friendship', 'animality', 'brutality'];
+  const typeOrder = ['fatality', 'stage_fatality', 'babality', 'friendship', 'animality', 'brutality'];
 
   const subsections = typeOrder
     .filter(type => grouped[type] && grouped[type].length > 0)
