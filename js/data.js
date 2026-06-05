@@ -25,7 +25,7 @@
  */
 
 /**
- * @typedef {'fatality'|'babality'|'friendship'|'animality'|'brutality'} FinisherType
+ * @typedef {'fatality'|'stage_fatality'|'babality'|'friendship'|'animality'|'brutality'} FinisherType
  */
 
 /**

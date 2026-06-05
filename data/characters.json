@@ -895,6 +895,100 @@
     ]
   },
   {
+    "name": "Noob Saibot",
+    "slug": "noob-saibot",
+    "imageUrl": "images/noob-saibot.svg",
+    "specialMoves": [
+      {
+        "name": "Shadow Toss",
+        "command": "→ , → , HP"
+      },
+      {
+        "name": "Teleport Slam",
+        "command": "↓ , ↑"
+      },
+      {
+        "name": "Dark Cloud Fireball",
+        "command": "↓ , → , LP"
+      }
+    ],
+    "finishers": [
+      {
+        "name": "Shadow Finisher",
+        "type": "fatality",
+        "command": "← , ← , → , → , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Dark Ritual",
+        "type": "fatality",
+        "command": "segure BL , ↓ , ↓ , ↑ , RUN",
+        "distance": "Perto"
+      },
+      {
+        "name": "Animality",
+        "type": "animality",
+        "command": "← , → , ← , → , HK",
+        "distance": "Perto"
+      },
+      {
+        "name": "Stage Fatality",
+        "type": "stage_fatality",
+        "command": "→ , ↓ , → , BL",
+        "distance": "Perto"
+      },
+      {
+        "name": "Baby Noob Saibot",
+        "type": "babality",
+        "command": "→ , → , → , LP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Amizade",
+        "type": "friendship",
+        "command": "→ , → , ← , HP",
+        "distance": "Qualquer Distância"
+      },
+      {
+        "name": "Brutality",
+        "type": "brutality",
+        "command": "HP , LK , LP , BL , LK , HK , HP , LP , BL , LK , HK",
+        "distance": "Perto"
+      }
+    ],
+    "combos": [
+      {
+        "name": "Punch Combo",
+        "command": "HP , HP , LP , HK",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Kick Combo",
+        "command": "LK , LK , LK , LK",
+        "hits": 4,
+        "damage": 18
+      },
+      {
+        "name": "Dark Combo",
+        "command": "HP , HP , ↓ + LP , LK",
+        "hits": 4,
+        "damage": 20
+      }
+    ],
+    "lore": {
+      "bio": "Noob Saibot emerge da região mais sombria da realidade, o Netherealm. Silencioso, espectral e envolto por energia negra, ele observa a guerra entre os reinos como agente dos Irmãos da Sombra.\n\nEm Ultimate Mortal Kombat 3, sua presença funciona como uma ameaça secreta: um ninja das trevas que usa sombras, teletransporte e ataques furtivos para desestabilizar os campeões enquanto Shao Kahn tenta dominar a Terra.",
+      "curiosities": [
+        "Noob Saibot foi incluído como personagem jogável nas versões de console de UMK3, especialmente Super Nintendo e Mega Drive/Genesis.",
+        "Seu nome é uma brincadeira com os sobrenomes dos criadores Ed Boon e John Tobias escritos ao contrário.",
+        "A paleta totalmente escura reforça seu papel como ninja secreto e contraponto sombrio aos outros ninjas clássicos.",
+        "Em versões caseiras de UMK3, Noob Saibot recebeu golpes próprios como Shadow Toss, Teleport Slam e Dark Cloud Fireball.",
+        "Sua ligação com o Netherealm e com os Irmãos da Sombra antecipou elementos importantes da mitologia expandida da série."
+      ],
+      "ending": "Depois da queda de Shao Kahn, Noob Saibot revela que nunca lutou por lealdade ao imperador. Sua missão era conquistar a confiança de Kahn, estudar suas fraquezas e abrir caminho para que o poder sombrio do Netherealm avançasse sobre os reinos.\n\nCom a Terra salva e Outworld enfraquecido, Noob retorna às sombras para relatar o resultado aos seus mestres. Sua vitória não anuncia paz, mas o início de uma conspiração ainda mais obscura."
+    }
+  },
+  {
     "name": "Reptile",
     "slug": "reptile",
     "imageUrl": "images/reptile.png",
