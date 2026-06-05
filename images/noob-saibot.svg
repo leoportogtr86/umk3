@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Noob Saibot</title>
+  <desc id="desc">Ilustração vetorial de Noob Saibot em traje ninja sombrio, cercado por fumaça e energia roxa em um templo escuro.</desc>
+  <defs>
+    <radialGradient id="templeGlow" cx="50%" cy="32%" r="65%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.55"/>
+      <stop offset="48%" stop-color="#191733" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#03040a"/>
+    </radialGradient>
+    <linearGradient id="armor" x1="28%" x2="78%" y1="12%" y2="100%">
+      <stop offset="0%" stop-color="#2f3340"/>
+      <stop offset="38%" stop-color="#11131b"/>
+      <stop offset="100%" stop-color="#020309"/>
+    </linearGradient>
+    <linearGradient id="cloth" x1="50%" x2="50%" y1="18%" y2="100%">
+      <stop offset="0%" stop-color="#262a35"/>
+      <stop offset="55%" stop-color="#07080d"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <filter id="purpleBlur" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="floorLines" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M0 64 L64 0 M-12 12 L12 -12 M52 76 L76 52" stroke="#516080" stroke-opacity="0.22" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect width="1024" height="1280" fill="#03040a"/>
+  <rect width="1024" height="1280" fill="url(#templeGlow)"/>
+
+  <g opacity="0.52">
+    <path d="M210 0h42v1040h-42zM772 0h42v1040h-42z" fill="#0b1020"/>
+    <path d="M250 0h10v1040h-10zM762 0h10v1040h-10z" fill="#41516f" opacity="0.35"/>
+    <circle cx="512" cy="236" r="170" fill="none" stroke="#8b93c7" stroke-width="8" opacity="0.26"/>
+    <circle cx="512" cy="236" r="124" fill="none" stroke="#8b93c7" stroke-width="4" opacity="0.16"/>
+    <path d="M417 280c42-114 159-120 197-28-39-45-102-46-147-17 55 2 99 31 121 80-53-44-130-50-171-35z" fill="#8b93c7" opacity="0.12"/>
+  </g>
+
+  <g filter="url(#purpleBlur)" opacity="0.82">
+    <path d="M198 403c-74 42-112 141-87 244 27 109 104 164 163 241 62 82 35 167-2 235 134-94 154-203 93-326-43-87-143-155-118-282 11-57 51-93 97-128-45 8-90 4-146 36z" fill="#5b21b6"/>
+    <path d="M813 421c72 54 92 153 38 257-44 85-136 139-123 257 7 63 45 105 83 147-122-42-197-151-166-280 22-94 103-168 89-269-8-57-42-92-82-125 45 1 84 4 161 29z" fill="#4c1d95"/>
+    <path d="M330 768c113-59 234-57 361 2 53 25 93 66 132 122-113-34-193-8-283 33-100 46-188 32-278-43 42-13 68-34 68-114z" fill="#312e81"/>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="0" y="980" width="1024" height="300" fill="#05060c"/>
+    <rect x="0" y="980" width="1024" height="300" fill="url(#floorLines)" opacity="0.48"/>
+    <ellipse cx="512" cy="1082" rx="352" ry="76" fill="#8b5cf6" opacity="0.13" filter="url(#purpleBlur)"/>
+  </g>
+
+  <g id="noob-saibot" filter="url(#softGlow)">
+    <path d="M370 1006l-80 176-72-28 46-183 49-137 89 32z" fill="url(#armor)"/>
+    <path d="M650 866l85 124 77 168-73 34-103-169-82-130z" fill="url(#armor)"/>
+    <path d="M276 1136l-31 72 163 13-28-74zM729 1147l-16 78 162-34-48-64z" fill="#020309"/>
+    <path d="M336 651c-63 39-108 78-161 132l61 62 166-79z" fill="url(#armor)"/>
+    <path d="M664 655l155 122-70 56-144-57z" fill="url(#armor)"/>
+    <path d="M323 792l112-42 69 78-102 110-117-29zM587 825l77-78 88 86-94 108-123-78z" fill="#090b13"/>
+    <path d="M392 412c-42 58-72 169-57 272 17 111 86 172 172 174 96 2 164-65 179-177 16-119-18-236-71-291-63-65-169-60-223 22z" fill="url(#cloth)"/>
+    <path d="M418 518c-4 86 8 164 36 237h84c34-73 48-151 45-237-51 31-112 32-165 0z" fill="#05060c"/>
+    <path d="M401 386c33-74 137-118 217-10 18 25 31 75 29 104-48-55-103-76-163-65-48 9-85 38-120 83-3-33 7-77 37-112z" fill="#161923"/>
+    <path d="M391 494c56-66 158-72 219-7-8 72-46 119-103 121-57 2-97-38-116-114z" fill="#05060c"/>
+    <path d="M431 498c32-18 45-18 78-3-15 17-30 24-47 24-17 1-31-5-31-21zM525 495c29-15 48-14 75 4-7 15-21 20-38 19-17-1-32-8-37-23z" fill="#b8c7ff"/>
+    <path d="M433 494c29 6 50 5 76-1M524 493c31 4 50 5 74 2" stroke="#7c3aed" stroke-width="7" stroke-linecap="round"/>
+    <path d="M450 555c37 20 76 19 116-3-14 44-35 70-63 70-29 0-45-23-53-67z" fill="#111827" stroke="#32384a" stroke-width="3"/>
+    <path d="M375 620l136 74 133-72-50 192H425z" fill="#0a0c13"/>
+    <path d="M413 650l68 39-49 230-84-92zM584 650l-61 39 42 229 90-92z" fill="#1b1f2b" opacity="0.9"/>
+    <path d="M365 603c-24 22-42 55-57 105l86 18 42-117zM630 609l39 117 92-25c-15-47-35-81-62-103z" fill="url(#armor)"/>
+    <path d="M404 785h192l24 44c-62 36-150 35-240-2z" fill="#020309" stroke="#2f3444" stroke-width="4"/>
+    <path d="M438 800l-29 160 67 47 35-189zM542 818l38 189 67-48-37-159z" fill="#05060c"/>
+    <path d="M350 420c61-46 174-76 292 5-14-80-64-146-141-150-75-4-133 51-151 145z" fill="#202633"/>
+    <path d="M418 307c49-44 120-48 173 9-59-25-116-24-173-9z" fill="#475063" opacity="0.42"/>
+  </g>
+
+  <g opacity="0.72" filter="url(#purpleBlur)">
+    <circle cx="299" cy="351" r="28" fill="#8b5cf6"/>
+    <circle cx="768" cy="371" r="22" fill="#a78bfa"/>
+    <circle cx="218" cy="706" r="18" fill="#6d28d9"/>
+    <circle cx="845" cy="728" r="16" fill="#7c3aed"/>
+  </g>
+</svg>
