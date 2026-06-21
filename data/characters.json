@@ -84,16 +84,16 @@
       }
     ],
     "lore": {
-      "bio": "Cyrax é um guerreiro do clã Lin Kuei que foi transformado contra sua vontade em um cyborg assassino. Antes da automação, ele era um dos membros mais habilidosos do clã, conhecido por sua lealdade e senso de honra.\n\nDurante os eventos de Mortal Kombat 3, Cyrax foi enviado para caçar o ninja desertor Sub-Zero, mas sua programação começou a falhar. Fragmentos de sua consciência humana lutavam contra os protocolos de máquina, criando um conflito interno entre dever e identidade.",
+      "bio": "Cyrax é o lado trágico da modernização do Lin Kuei: um guerreiro disciplinado, eficiente e ainda humano o bastante para desconfiar quando alguém chama sequestro corporativo de “projeto de aprimoramento”. Transformado contra a própria vontade em um assassino cibernético, ele carrega no metal amarelo a contradição central do clã: obediência perfeita por fora, consciência resistindo por dentro.\n\nEm Ultimate Mortal Kombat 3, Cyrax é enviado para localizar Sub-Zero, o desertor que recusou a automação. O problema é que, no meio da caçada, sua programação começa a chiar como cartucho empoeirado: lembranças, culpa e instinto moral atravessam os comandos frios da máquina. Assim, ele vira uma bomba ambulante em dois sentidos — literalmente, por causa do arsenal, e dramaticamente, porque sua humanidade está prestes a explodir de volta.",
       "curiosities": [
-        "Cyrax foi introduzido em Mortal Kombat 3 como parte da tríade de ninjas cibernéticos junto com Sektor e Smoke.",
-        "Sua cor amarela foi escolhida para diferenciá-lo dos outros cyborgs — Sektor é vermelho e Smoke é cinza.",
-        "O nome 'Cyrax' é uma referência fonética a 'cyborg', reforçando sua natureza mecânica.",
-        "Em UMK3, Cyrax possui uma das bombas mais versáteis do jogo, permitindo setups de combo únicos.",
-        "Seu fatality 'Helicóptero' é considerado um dos mais icônicos da série por sua brutalidade criativa.",
-        "Na lore expandida, Cyrax é o único dos três cyborgs que eventualmente recupera sua humanidade por completo."
+        "Cyrax compõe, com Sektor e Smoke, o trio de ninjas cibernéticos que transformou o Lin Kuei numa mistura de clã ancestral, laboratório clandestino e péssimo departamento de RH.",
+        "Seu esquema amarelo facilita identificá-lo em tela e acabou virando parte essencial de sua personalidade visual: ele parece um alerta de perigo com pernas.",
+        "A rede energética é uma das ferramentas mais reconhecíveis do personagem, ótima para interromper o adversário e péssima para quem jurou que “dava para pular”.",
+        "As bombas de curta e longa distância fazem Cyrax jogar como um estrategista: ele não só bate, ele agenda compromissos explosivos no chão.",
+        "Seu conflito interno rende um dos arcos mais humanos entre os ciborgues, mostrando que memória e identidade podem resistir até dentro de uma carcaça programada.",
+        "Entre os robôs de UMK3, Cyrax costuma ser lembrado como o que mais parece querer pedir desculpa depois de vencer — antes do Fatality, claro, porque aí a etiqueta social já foi embora."
       ],
-      "ending": "Após derrotar Shao Kahn, os circuitos de Cyrax entraram em colapso. A energia liberada pelo imperador derrotado causou uma sobrecarga em seus sistemas, desativando os protocolos de controle do Lin Kuei.\n\nLivre da programação que o escravizava, Cyrax recuperou fragmentos de suas memórias humanas. Ele buscou ajuda das Forças Especiais, que conseguiram restaurar parcialmente sua consciência. Embora preso em um corpo mecânico, Cyrax jurou nunca mais servir ao Lin Kuei e dedicou-se a impedir que outros guerreiros sofressem o mesmo destino."
+      "ending": "Com Shao Kahn derrotado, os sistemas de Cyrax sofrem uma pane que rompe as ordens do Lin Kuei. O guerreiro desperta em meio a ruídos de memória, percebendo que a máquina venceu muitas lutas, mas não conseguiu apagar completamente o homem.\n\nLivre, ainda que preso a um corpo metálico, Cyrax abandona a missão de caçar Sub-Zero e passa a buscar uma forma de recuperar sua autonomia. Sua vitória não é apenas contra Kahn: é contra a ideia de que um guerreiro pode ser reduzido a ferramenta."
     }
   },
   {
@@ -159,7 +159,18 @@
         "hits": 5,
         "damage": 22
       }
-    ]
+    ],
+    "lore": {
+      "bio": "Um guerreiro formado pela união de muitas almas, servido por telecinese e por uma voz coletiva que transforma qualquer conversa em assembleia sobrenatural. Criação mística ligada a Outworld, condensando mortos, magia e disciplina marcial em um só corpo vermelho.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Sua origem nasceu de rumores de arcade e virou personagem real, prova de que fofoca de fliperama às vezes ganha sprite.",
+        "Seus golpes telecinéticos fazem o rival perder o chão e a dignidade ao mesmo tempo.",
+        "Fala frequentemente no plural, porque quando há muitas almas no mesmo corpo até o pronome precisa de reunião.",
+        "Em UMK3 representa o lado oculto do exército de Kahn: não basta ter soldados, é preciso ter um condomínio de espíritos.",
+        "Seu visual vermelho o destaca entre ninjas e sugere perigo, misticismo e uma leve incapacidade de passar despercebido."
+      ],
+      "ending": "Derrotado Kahn, as almas dentro de Ermac deixam de agir como simples arma imperial e começam a procurar propósito próprio. A entidade percebe que liberdade, para quem é muitos, exige consenso — e consenso com almas antigas deve ser pior que reunião de condomínio."
+    }
   },
   {
     "name": "Jade",
@@ -248,7 +259,18 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A guarda-costas leal e letal de Edenia, especialista em bastão, bumerangues e olhares que dizem 'eu avisei' antes do primeiro golpe. Amiga próxima de Kitana e servidora de confiança da corte edeniana, dividida entre dever, amizade e consciência política.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu movimento de invulnerabilidade a projéteis a torna pesadelo para quem acha que resolver tudo no spam é filosofia de vida.",
+        "Os bumerangues em alturas diferentes dão a Jade controle espacial elegante e irritante na medida certa.",
+        "Ela combina agilidade ninja com postura de guarda real, como se cada combo também corrigisse a postura do oponente.",
+        "Sua lealdade a Kitana pesa mais que ordens imperiais, destacando o coração político de Edenia.",
+        "O bastão reforça sua identidade própria, evitando que ela seja apenas 'mais uma ninja de paleta' — injustiça que ela resolveria com uma paulada cerimonial."
+      ],
+      "ending": "Com Kahn derrotado, Jade escolhe proteger Kitana e ajudar Edenia a se reerguer. Sua vitória confirma que lealdade verdadeira não é obediência cega, e sim saber a hora de desobedecer o tirano sem amassar o uniforme."
+    }
   },
   {
     "name": "Jax",
@@ -341,7 +363,18 @@
         "hits": 5,
         "damage": 22
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O braço pesado das Forças Especiais: soldado, comandante e especialista em resolver crise interdimensional com disciplina militar e socos que parecem obras públicas. Parceiro de Sonya Blade, ele entra na invasão de Kahn como resposta direta da Terra ao crime organizado mágico de Outworld.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seus braços metálicos viraram uma das imagens mais marcantes da série, elevando o conceito de 'mão pesada' a política pública.",
+        "O golpe de agarrar e bater no chão traduz perfeitamente sua personalidade: direto, eficiente e péssimo para a coluna adversária.",
+        "Jax representa a militarização defensiva da Terra contra ameaças que claramente não cabem em boletim de ocorrência comum.",
+        "Apesar do visual intimidador, costuma ser retratado como líder protetor e racional, o adulto na sala enquanto todo mundo solta raio.",
+        "Se alguém precisasse preencher relatório após cada Fatality, Jax provavelmente seria o único com letra legível."
+      ],
+      "ending": "Após a queda de Kahn, Jax reorganiza as Forças Especiais para lidar com ameaças sobrenaturais permanentes. Ele entende que a Terra venceu uma batalha, mas agora precisa de protocolos para portais, feiticeiros e monstros que definitivamente não constavam no treinamento básico."
+    }
   },
   {
     "name": "Kabal",
@@ -418,7 +451,18 @@
         "hits": 5,
         "damage": 22
       }
-    ]
+    ],
+    "lore": {
+      "bio": "Um sobrevivente mascarado, veloz e armado com ganchos, como se a vingança tivesse colocado turbo e decidido respirar por mangueira. Ex-membro ligado ao submundo, ele é marcado pela violência da invasão e transformado em guerreiro de aparência quase pós-apocalíptica.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Sua corrida Nomad Dash é um dos movimentos mais temidos, porque atravessa a tela e a paciência do adversário.",
+        "Os hook swords dão a ele silhueta única e ataques com alcance traiçoeiro.",
+        "A máscara e o respirador criam mistério visual: ninguém sabe se ele vai lutar, discursar ou pedir manutenção preventiva.",
+        "Kabal mistura estética de anti-herói com velocidade absurda, parecendo alguém que chegou atrasado para salvar o mundo e compensou no sprint.",
+        "É provavelmente o personagem que mais entende a expressão 'correria do dia a dia' de forma literal e dolorosa."
+      ],
+      "ending": "Vencido Kahn, Kabal percebe que sobreviveu a algo maior que sua antiga vida criminosa. Ele decide usar a velocidade e a dor como armas de redenção, embora continue parecendo o tipo de pessoa que assusta crianças e radares de trânsito."
+    }
   },
   {
     "name": "Kano",
@@ -507,7 +551,18 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O mercenário que olha para uma invasão dimensional e enxerga oportunidade de negócio, porque para Kano até o apocalipse precisa de margem de lucro. Líder associado ao Dragão Negro, ele é inimigo persistente de Sonya e um dos humanos mais moralmente flexíveis da franquia.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu olho cibernético é marca registrada e aviso luminoso de que nada bom vem dali.",
+        "O Cannonball resume Kano: grosseiro, eficiente e com zero preocupação estética depois do impacto.",
+        "Ele sobrevive por oportunismo, mudando de lado quando convém e chamando isso de estratégia empresarial.",
+        "Em UMK3, sua ligação com Kahn mostra que traidores locais sempre encontram patrocinador internacional — ou interdimensional.",
+        "Kano é a prova de que carisma não precisa vir acompanhado de ética, higiene política ou escolhas de vida saudáveis."
+      ],
+      "ending": "Com Kahn derrotado, Kano tenta escapar do desastre levando tudo que puder roubar no caminho. Para ele, salvar o mundo é secundário; o importante é sair vivo, insolente e com alguma coisa brilhante no bolso."
+    }
   },
   {
     "name": "Kitana",
@@ -584,7 +639,18 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A princesa guerreira de Edenia, treinada como assassina de Outworld, mas destinada a transformar lealdade forçada em rebelião elegante. Filha adotiva de Shao Kahn em muitas versões da trama e herdeira de uma linhagem roubada, ela carrega a tragédia de Edenia com graça e lâminas afiadas.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seus leques de aço dão identidade visual refinada: arma nobre, movimento bonito e resultado hospitalar.",
+        "A relação com Jade reforça seu lado humano e político, mostrando que rebeliões também dependem de amizade confiável.",
+        "Kitana equilibra disciplina real e fúria pessoal, uma combinação perigosa para ditadores e decoradores de palácio.",
+        "Sua rivalidade com Mileena adiciona tensão familiar artificial, criada por magia, inveja e péssimas decisões de laboratório.",
+        "Ela luta como quem sabe que libertar um reino exige tanto estratégia quanto uma boa sequência de chutes."
+      ],
+      "ending": "Após Kahn cair, Kitana dedica a vitória à restauração de Edenia e à memória de tudo que foi roubado. Sua coroa deixa de ser símbolo de manipulação imperial e passa a representar resistência, responsabilidade e uma agenda cheia de reconstrução."
+    }
   },
   {
     "name": "Kung Lao",
@@ -659,7 +725,18 @@
         "hits": 7,
         "damage": 30
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O monge shaolin de chapéu laminado, descendente de um legado heroico e praticante da filosofia 'seja humilde, mas leve uma serra circular na cabeça'. Aliado de Liu Kang, ele retorna ao conflito para defender a Terra e honrar a tradição dos Grandes Kung Lao.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu chapéu é uma das armas mais icônicas da série, provando que acessórios podem ser letais quando o alfaiate é insano.",
+        "O Dive Kick e os teletransportes dão a Kung Lao mobilidade imprevisível, irritando quem tenta jogar xadrez e recebe capoeira aérea.",
+        "Costuma ser retratado como talentoso e orgulhoso, mas seu orgulho vem acompanhado de disciplina shaolin, não de pose vazia.",
+        "Sua presença amplia o núcleo dos monges da Terra, mostrando que Liu Kang não carrega o planeta sozinho, embora o planeta insista em pesar bastante.",
+        "Kung Lao é o tipo de guerreiro que entra numa luta com serenidade espiritual e sai devendo explicações ao fabricante do chapéu."
+      ],
+      "ending": "Derrotado Kahn, Kung Lao reafirma o compromisso dos Shaolin com a proteção da Terra. Ele entende que glória pessoal é passageira, mas um bom chapéu afiado, bem cuidado, pode atravessar gerações e alguns torsos."
+    }
   },
   {
     "name": "Liu Kang",
@@ -740,7 +817,18 @@
         "hits": 7,
         "damage": 30
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O campeão shaolin da Terra, herói clássico movido por disciplina, coragem e a capacidade sobre-humana de gritar enquanto voa chutando. Principal defensor do Reino da Terra contra Shao Kahn, ele encarna a resistência espiritual diante da brutalidade imperial.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu Flying Kick é simples, lendário e pedagogicamente claro: há um problema do outro lado da tela, Liu Kang vai até lá com o pé.",
+        "As bolas de fogo reforçam sua imagem de monge marcial com energia interior suficiente para dispensar isqueiro.",
+        "Liu Kang funciona como centro moral da saga, mesmo quando o mundo ao redor parece uma reunião de monstros, ninjas e burocracia dimensional.",
+        "Sua rivalidade com Shang Tsung e Kahn representa o confronto entre liberdade conquistada e poder roubado.",
+        "Ele é o personagem que mais parece ter lido o manual do herói — e, diferente de todos nós, feito alongamento antes."
+      ],
+      "ending": "Com Kahn vencido, Liu Kang restaura a esperança da Terra e prova que disciplina pode superar tirania. A vitória não o torna arrogante; apenas mais consciente de que o próximo torneio, inevitavelmente, vai aparecer antes de todo mundo terminar de comemorar."
+    }
   },
   {
     "name": "Mileena",
@@ -811,7 +899,18 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A assassina feroz criada como reflexo distorcido de Kitana, misturando beleza, brutalidade tarkatana e uma inveja que definitivamente não cabe em terapia familiar comum. Produto de magia e manipulação de Outworld, ela existe para substituir, vigiar e rivalizar com a princesa edeniana.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Suas sais dão ataques rápidos e perfurantes, combinando elegância assassina com uma pontaria emocionalmente instável.",
+        "O Rolling Thunder torna Mileena imprevisível, como se a raiva tivesse virado cambalhota ofensiva.",
+        "Sua máscara esconde a monstruosidade tarkatana e simboliza a tensão entre desejo de aceitação e natureza violenta.",
+        "Mileena é uma das personagens mais trágicas e perigosas: quer identidade própria, mas foi criada para ser cópia.",
+        "Ela prova que 'problemas de irmã' em Mortal Kombat podem envolver lâminas, clonagem mística e mordidas extremamente antissociais."
+      ],
+      "ending": "Com Shao Kahn derrotado, Mileena tenta transformar o caos em chance de ascensão. Sem o controle absoluto do imperador, ela busca provar que não é sombra de Kitana, mas uma ameaça soberana — ainda que a diplomacia dela costume terminar em mordida."
+    }
   },
   {
     "name": "Nightwolf",
@@ -892,7 +991,18 @@
         "hits": 4,
         "damage": 21
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O xamã e guerreiro nativo americano que protege a Terra com machados espirituais, magia ancestral e uma serenidade que deixa demônios desconfortáveis. Guiado por forças espirituais, ele atua como defensor místico contra a invasão de Outworld e contra a arrogância de quem acha que portal resolve tudo.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu escudo refletor é uma resposta elegante ao spam de projéteis: educação espiritual com devolução ao remetente.",
+        "Os machados de energia criam uma identidade visual forte, unindo combate físico e poder sagrado.",
+        "Nightwolf amplia o lado espiritual da defesa da Terra, lembrando que nem toda resistência vem de exércitos ou templos shaolin.",
+        "Sua postura calma contrasta com a violência ao redor, como um professor paciente numa sala onde todos trouxeram lança-chamas.",
+        "Em UMK3, ele é uma das âncoras místicas que ajudam a explicar como a Terra resiste ao roubo de almas."
+      ],
+      "ending": "Após a derrota de Kahn, Nightwolf retorna ao papel de guardião espiritual, curando as cicatrizes deixadas pela invasão. Ele sabe que a vitória militar é só metade do trabalho; a outra metade é convencer o mundo a não cutucar portais brilhantes sem supervisão."
+    }
   },
   {
     "name": "Noob Saibot",
@@ -977,15 +1087,16 @@
       }
     ],
     "lore": {
-      "bio": "Noob Saibot emerge da região mais sombria da realidade, o Netherealm. Silencioso, espectral e envolto por energia negra, ele observa a guerra entre os reinos como agente dos Irmãos da Sombra.\n\nEm Ultimate Mortal Kombat 3, sua presença funciona como uma ameaça secreta: um ninja das trevas que usa sombras, teletransporte e ataques furtivos para desestabilizar os campeões enquanto Shao Kahn tenta dominar a Terra.",
+      "bio": "Noob Saibot é a sombra que fica quando até a sombra resolve apagar a luz. Silencioso, espectral e ligado ao Netherealm, ele atravessa Ultimate Mortal Kombat 3 como uma presença secreta, quase um rumor jogável: poucos entendem de onde veio, menos ainda sabem o que pretende, e absolutamente ninguém quer encontrá-lo no corredor escuro da seleção de personagens.\n\nSua participação em UMK3 funciona como ameaça paralela à invasão de Shao Kahn. Enquanto os reinos estão ocupados com portais, almas roubadas e pancadaria diplomática, Noob observa, testa fraquezas e age em nome de forças sombrias. Ele não precisa discursar para intimidar; basta aparecer, sumir e lembrar ao oponente que o pior ataque é aquele que vem do lugar onde a câmera não está olhando.",
       "curiosities": [
-        "Noob Saibot foi incluído como personagem jogável nas versões de console de UMK3, especialmente Super Nintendo e Mega Drive/Genesis.",
-        "Seu nome é uma brincadeira com os sobrenomes dos criadores Ed Boon e John Tobias escritos ao contrário.",
-        "A paleta totalmente escura reforça seu papel como ninja secreto e contraponto sombrio aos outros ninjas clássicos.",
-        "Em versões caseiras de UMK3, Noob Saibot recebeu golpes próprios como Shadow Toss, Teleport Slam e Dark Cloud Fireball.",
-        "Sua ligação com o Netherealm e com os Irmãos da Sombra antecipou elementos importantes da mitologia expandida da série."
+        "O nome Noob Saibot homenageia Ed Boon e John Tobias, criadores centrais da série, com os sobrenomes invertidos.",
+        "Em UMK3, sua aura de personagem secreto reforça o fascínio da era dos fliperamas, quando metade da diversão era ouvir alguém jurar que sabia um código misterioso.",
+        "Sua paleta escura o diferencia dos ninjas clássicos e transforma simplicidade visual em identidade ameaçadora.",
+        "Noob Saibot raramente precisa de grandes gestos: seu estilo é seco, furtivo e cruel, como se economizasse energia para assustar melhor.",
+        "Ele funciona como prenúncio de tramas maiores envolvendo o Netherealm, mostrando que a queda de Kahn não resolve todos os problemas — só libera a agenda dos próximos.",
+        "É o tipo de personagem que parece ter entrado no torneio sem convite, sem crachá e sem nenhuma intenção de preencher formulário."
       ],
-      "ending": "Depois da queda de Shao Kahn, Noob Saibot revela que nunca lutou por lealdade ao imperador. Sua missão era conquistar a confiança de Kahn, estudar suas fraquezas e abrir caminho para que o poder sombrio do Netherealm avançasse sobre os reinos.\n\nCom a Terra salva e Outworld enfraquecido, Noob retorna às sombras para relatar o resultado aos seus mestres. Sua vitória não anuncia paz, mas o início de uma conspiração ainda mais obscura."
+      "ending": "Após a derrota de Shao Kahn, Noob Saibot revela que sua presença nunca foi simples lealdade ao imperador. Ele usou o caos da invasão para estudar os combatentes, medir poderes e abrir caminho para interesses mais antigos e sombrios.\n\nCom Outworld enfraquecido e a Terra respirando aliviada, Noob retorna ao Netherealm. Para os heróis, a guerra acabou; para ele, foi apenas uma auditoria de vulnerabilidades com capa preta."
     }
   },
   {
@@ -1069,7 +1180,18 @@
         "hits": 4,
         "damage": 19
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O guerreiro sauriano invisível, servo de Outworld e último eco de uma raça quase extinta, vivendo entre obediência, solidão e ataques ácidos nada recomendáveis para carpetes. Sua lealdade a Kahn costuma nascer menos de fé e mais de esperança desesperada de restaurar seu povo.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "A invisibilidade transforma Reptile em ameaça psicológica: o adversário apanha e ainda precisa discutir com a própria câmera.",
+        "O cuspe ácido é marca registrada e um lembrete de que alguns problemas não se resolvem com pano úmido.",
+        "Seu visual ninja esconde natureza reptiliana, criando contraste entre disfarce humanoide e monstruosidade verdadeira.",
+        "Reptile é trágico porque serve tiranos buscando salvação, uma barganha que em Outworld raramente vem com letras miúdas honestas.",
+        "Ele provavelmente seria péssimo em jogos de esconde-esconde infantis: eficiente demais e corrosivo demais."
+      ],
+      "ending": "Com Kahn derrotado, Reptile fica sem a promessa que sustentava sua servidão. A vitória o obriga a encarar uma pergunta dolorosa: se o imperador mentiu, onde ainda existe esperança para sua espécie?"
+    }
   },
   {
     "name": "Scorpion",
@@ -1146,7 +1268,18 @@
         "hits": 4,
         "damage": 21
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O espectro ninja do Netherealm, movido por vingança, fogo infernal e uma frase que transformou puxão de corrente em patrimônio cultural. Ressuscitado como criatura vingativa, ele cruza o conflito de UMK3 seguindo seus próprios códigos, mais pessoais que políticos.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "O arpão é um dos golpes mais famosos dos games, eficiente tanto em combate quanto em arruinar planos de ficar longe.",
+        "Seu fogo infernal reforça a identidade de morto-vivo irado, como se rancor tivesse virado combustível renovável.",
+        "Scorpion não luta por reinos com facilidade; luta por honra, memória e vinganças cuidadosamente guardadas no bolso interno do uniforme.",
+        "Sua relação com Sub-Zero é uma das rivalidades mais importantes da série, cheia de mal-entendidos, tragédia e gritaria pontual.",
+        "Ele é o tipo de personagem que entra em silêncio e, quando fala, todo mundo já sabe a fala e mesmo assim toma susto."
+      ],
+      "ending": "Com Kahn derrotado, Scorpion retorna às sombras em busca de respostas sobre sua morte, seu clã e o verdadeiro alvo de sua vingança. A queda do imperador não apaga seu fogo; apenas ilumina novas mentiras a serem queimadas."
+    }
   },
   {
     "name": "Sektor",
@@ -1223,7 +1356,18 @@
         "hits": 5,
         "damage": 22
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O ciborgue vermelho do Lin Kuei que abraçou a automação com entusiasmo preocupante, como se lealdade fosse software e empatia um bug a ser removido. Filho de uma visão radical do clã, ele representa o lado que prefere eficiência absoluta a humanidade.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seus mísseis teleguiados fazem dele ameaça constante, especialmente para quem achou que abaixar resolveria a vida.",
+        "O teleporte-uppercut mistura tecnologia e brutalidade ninja, chegando de surpresa como boleto com foguete.",
+        "Ao contrário de Cyrax, Sektor parece confortável com sua forma mecânica, o que o torna mais frio e assustador.",
+        "Sua cor vermelha comunica agressividade direta: ele não é alerta amarelo, é sirene inteira.",
+        "Sektor dá a impressão de que, se perdesse uma luta, culparia o firmware e abriria chamado contra si mesmo."
+      ],
+      "ending": "Após Kahn cair, Sektor vê oportunidade de expandir a agenda cibernética do Lin Kuei. Sem se arrepender, ele conclui que a falha não foi a automação, mas a falta de automação suficiente — uma opinião que ninguém deveria deixar perto de uma tomada."
+    }
   },
   {
     "name": "Shang Tsung",
@@ -1380,7 +1524,18 @@
         "hits": 5,
         "damage": 22
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O feiticeiro devorador de almas, mestre da manipulação e homem que transformou roubo de identidade em carreira mágica de alto rendimento. Servo e conspirador de Shao Kahn, ele alterna fidelidade e ambição com a naturalidade de quem troca de forma no meio da conversa.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Sua habilidade de metamorfose sempre foi espetáculo técnico e narrativo, permitindo que ele vire quase qualquer ameaça disponível.",
+        "As bolas de fogo múltiplas mostram que até quando não se transforma ele prefere vencer com excesso teatral.",
+        "Shang Tsung representa a corrupção do poder: ele não derrota apenas corpos, tenta consumir histórias, almas e créditos de autoria.",
+        "Sua rivalidade com Liu Kang coloca astúcia predatória contra disciplina heroica.",
+        "É impossível imaginar Shang Tsung pagando por uma fantasia de Halloween; ele simplesmente vira o dono da loja."
+      ],
+      "ending": "Com Kahn derrotado, Shang Tsung finge lealdade, calcula perdas e procura o próximo caminho para sobreviver. Para ele, derrota raramente é fim: é apenas uma troca de plano, rosto e, se possível, de testemunhas."
+    }
   },
   {
     "name": "Sindel",
@@ -1461,7 +1616,18 @@
         "hits": 4,
         "damage": 19
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A rainha de Edenia ressuscitada no centro da invasão, símbolo de tragédia real, manipulação imperial e cabelo com autoridade própria. Usada por Shao Kahn como peça-chave para invadir a Terra, ela carrega uma história de perda, controle e realeza corrompida.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu grito sônico é inesquecível: uma demonstração de que discurso de rainha pode literalmente arrancar o adversário do chão.",
+        "O cabelo como arma dá a Sindel uma silhueta única e um dos estilos de combate mais teatrais da série.",
+        "Sua ligação com Kitana adiciona drama familiar ao conflito, porque em Mortal Kombat até reunião de mãe e filha pode envolver invasão dimensional.",
+        "Sindel representa Edenia aprisionada: nobreza, beleza e poder usados contra seus próprios ideais.",
+        "Ela é a prova de que 'bad hair day' em Outworld pode ser fatal para terceiros."
+      ],
+      "ending": "Com Kahn derrotado, Sindel recupera fragmentos de autonomia e encara o peso do que foi feito em seu nome. Sua vitória verdadeira é deixar de ser instrumento do imperador e voltar a ser voz de Edenia — uma voz que, por segurança, todos ouvem de longe."
+    }
   },
   {
     "name": "Smoke (Robot)",
@@ -1542,7 +1708,18 @@
         "hits": 4,
         "damage": 21
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O ninja cibernético envolto em fumaça, exemplo doloroso de como o Lin Kuei transformou guerreiros em máquinas e ainda esqueceu de desligar o drama. Amigo de Sub-Zero em muitas leituras da história, ele é capturado pelo processo de automação que o desertor tentou evitar.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "A fumaça constante cria mistério e pressão visual, além de sugerir que manutenção preventiva não era prioridade do clã.",
+        "Seus ataques de arpão e teleporte o aproximam de ninjas clássicos, mas com frieza mecânica e destino mais triste.",
+        "Smoke simboliza a perda de identidade: por baixo da programação ainda existe uma história humana sufocada.",
+        "Em UMK3, ele funciona como perseguidor e vítima ao mesmo tempo, caçando Sub-Zero enquanto sua própria liberdade já foi tomada.",
+        "É o personagem que mais parece precisar de amizade, desinstalação de firmware e talvez um exaustor industrial."
+      ],
+      "ending": "Com Kahn derrotado, Smoke continua preso entre comandos do Lin Kuei e ecos de sua antiga lealdade. A guerra externa termina, mas a batalha real passa a acontecer dentro de seus circuitos, onde a memória humana tenta respirar através da fumaça."
+    }
   },
   {
     "name": "Sonya",
@@ -1623,7 +1800,18 @@
         "hits": 6,
         "damage": 27
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A agente das Forças Especiais que encara mercenários, monstros e imperadores com a mesma energia de quem já viu coisa pior num relatório sobre Kano. Perseguidora incansável do Dragão Negro, ela entra no conflito como uma das principais defensoras militares da Terra.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seus golpes acrobáticos e projéteis de energia combinam técnica, preparo físico e uma recusa absoluta a ficar no chão.",
+        "A rivalidade com Kano é motor clássico da série, um duelo entre lei obstinada e canalhice profissional.",
+        "Sonya representa competência sob pressão: enquanto outros falam de destino, ela provavelmente pergunta onde fica a saída de emergência.",
+        "Sua parceria com Jax fortalece o núcleo das Forças Especiais e dá à Terra uma resposta organizada ao caos de Outworld.",
+        "É a pessoa que olharia para um portal demoníaco e pediria perímetro, reforço e algemas tamanho extra."
+      ],
+      "ending": "Depois da derrota de Kahn, Sonya volta a perseguir Kano e a estruturar defesas contra novas ameaças. Para ela, salvar o planeta não cancela mandado de prisão; apenas adiciona anexos sobrenaturais ao processo."
+    }
   },
   {
     "name": "Stryker",
@@ -1708,7 +1896,18 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O policial da Terra que entrou numa guerra de deuses, ninjas e monstros usando cassetete, armas de fogo e uma coragem quase administrativamente inexplicável. Sobrevivente da invasão urbana de Kahn, ele representa o cidadão comum treinado que se recusa a deixar o apocalipse dominar o quarteirão.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "Seu arsenal policial o diferencia do elenco místico, trazendo uma abordagem mais terrena e direta.",
+        "O visual de oficial comum no meio de guerreiros extravagantes virou parte de seu charme estranho: ele parece ter sido escalado durante o turno errado.",
+        "Stryker mostra que a defesa da Terra também passa por ruas, prédios e gente sem linhagem mágica.",
+        "Seus golpes podem parecer simples, mas simplicidade é útil quando um centauro não respeita sinal vermelho.",
+        "Ele é o personagem que mais parece perguntar 'quem autorizou esse portal?' antes de bater em alguém."
+      ],
+      "ending": "Com Kahn derrotado, Stryker retorna às ruas sabendo que ninguém acreditará totalmente no relatório. Ainda assim, ele mantém o compromisso de proteger pessoas comuns, mesmo quando as ameaças comuns agora incluem feiticeiros, almas e chefes finais sem alvará."
+    }
   },
   {
     "name": "Sub-Zero (Unmasked)",
@@ -1791,7 +1990,18 @@
         "hits": 6,
         "damage": 27
       }
-    ]
+    ],
+    "lore": {
+      "bio": "O ninja Lin Kuei que rejeitou a automação e mostrou o rosto, transformando a própria identidade em ato de rebeldia contra um clã que preferia serial numbers. Irmão mais novo do Sub-Zero original em muitas versões, ele escolhe preservar sua humanidade enquanto é caçado por ex-companheiros cibernéticos.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "A aparência sem máscara reforça sua ruptura com o passado e torna sua jornada mais pessoal.",
+        "Seus poderes de gelo continuam icônicos: congelar o oponente é prático, elegante e ligeiramente humilhante.",
+        "Sua fuga do Lin Kuei move parte importante da trama dos ciborgues, colocando Cyrax, Sektor e Smoke em seu encalço.",
+        "Sub-Zero representa autocontrole em dois sentidos: domínio do gelo e recusa a virar ferramenta de comando.",
+        "Ele é o sujeito que viu o plano 'vamos transformar todo mundo em robô assassino' e teve a reação sensata de pedir demissão correndo."
+      ],
+      "ending": "Após a queda de Kahn, Sub-Zero sobrevive à caçada e prova que humanidade é força, não fraqueza. Seu próximo desafio é enfrentar o Lin Kuei e talvez salvar aqueles que não conseguiram escapar da máquina."
+    }
   },
   {
     "name": "Sub-Zero (Classic)",
@@ -1844,6 +2054,17 @@
         "hits": 3,
         "damage": 14
       }
-    ]
+    ],
+    "lore": {
+      "bio": "A versão mascarada e clássica do criomante, preservando a imagem lendária do ninja azul que congelou a memória coletiva dos fliperamas. Funciona em UMK3 como homenagem jogável à era anterior da série, trazendo de volta o visual tradicional e a sensação de rivalidade ancestral.\n\nEm Ultimate Mortal Kombat 3, sua presença amplia a guerra contra Shao Kahn com um tempero próprio: estilo, trauma, truque sujo ou heroísmo, dependendo do caso. O resultado é um personagem que não está ali só para preencher a tela; está ali para tornar a invasão mais dramática, mais perigosa e, às vezes, involuntariamente engraçada.",
+      "curiosities": [
+        "A máscara e o uniforme azul comunicam mistério imediato: não é preciso explicar muito quando o adversário já está virando picolé.",
+        "Seus golpes de gelo são entre os mais reconhecíveis dos jogos de luta, especialmente por transformar erro do rival em estátua temporária.",
+        "A presença Classic reforça a importância de Sub-Zero como arquétipo da franquia, tão essencial quanto o narrador gritando coisas absurdas.",
+        "Ele agrada fãs que sentiam falta do ninja totalmente mascarado, porque nostalgia também dá dano psicológico.",
+        "É basicamente a prova de que, em Mortal Kombat, uma boa paleta azul nunca sai de moda — só fica mais fria."
+      ],
+      "ending": "Com Kahn derrotado, o legado clássico de Sub-Zero permanece como símbolo de medo e respeito. Seja como memória, identidade alternativa ou eco do passado, o ninja azul lembra que algumas lendas continuam congeladas no imaginário, prontas para voltar quando a tela piscar."
+    }
   }
 ]
